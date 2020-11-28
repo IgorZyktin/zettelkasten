@@ -4,9 +4,9 @@
 
 ---
 
-[\#linux](meta_linux.md)
+[\#linux](./meta_linux.md)
 
-[\#системное администрирование](meta_sistemnoe_administrirovanie.md)
+[\#системное администрирование](./meta_sistemnoe_administrirovanie.md)
 
 Пример свойств файлов и каталогов:
 ```

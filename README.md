@@ -8,7 +8,7 @@
 
 3 из 3. [Узнать IP адреса в локальной сети linux](./content/2020-11-28_get_local_ip_linux.md)
 
- 
- 
-Репозиторий собран с помощью https://github.com/IgorZyktin/minimus 
- 
+
+
+Репозиторий собран с помощью:
+https://github.com/IgorZyktin/minimus

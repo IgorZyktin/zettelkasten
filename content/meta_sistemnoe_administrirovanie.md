@@ -2,7 +2,7 @@
 
 ---
 
-1 из 2. [Права доступа к файлам в Linux](2020-11-28_file_access_rights_linux.md)
+1 из 2. [Права доступа к файлам в Linux](./2020-11-28_file_access_rights_linux.md)
 
-2 из 2. [Узнать IP адреса в локальной сети linux](2020-11-28_get_local_ip_linux.md)
+2 из 2. [Узнать IP адреса в локальной сети linux](./2020-11-28_get_local_ip_linux.md)
 

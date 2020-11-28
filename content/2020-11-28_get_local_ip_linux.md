@@ -5,9 +5,9 @@
 
 ---
 
-[\#linux](meta_linux.md)
+[\#linux](./meta_linux.md)
 
-[\#системное администрирование](meta_sistemnoe_administrirovanie.md)
+[\#системное администрирование](./meta_sistemnoe_administrirovanie.md)
 
 
 Удобный вариант это использовать программу nmap:
