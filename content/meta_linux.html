@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Все вхождения тега "linux"</title>
+
+    <script src="jquery-3.5.1.min.js"
+            type="application/javascript"></script>
+    <script src="arbor.js"
+            type="application/javascript"></script>
+    <script src="utils.js"
+            type="application/javascript"></script>
+    <script src="rendering.js"
+            type="application/javascript"></script>
+
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+            overflow: hidden;
+        }
+
+        button {
+            position: absolute;
+            display: inline-block;
+        }
+    </style>
+
+</head>
+<body>
+<!--<button id="btn">Скопировать координаты</button>-->
+<canvas id="viewport" width="1000" height="1000"></canvas>
+<script type="application/javascript">
+    let main_data_block = {
+    "nodes": {
+        "tag": {
+            "label": "Все вхождения тега \"linux\"",
+            "bg_color": "#04266c",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/meta_linux.md",
+            "filename": "meta_linux.html"
+        },
+        "sozdanie_sobstvennogo_servisa_v_systemctl_linux": {
+            "label": "Создание собственного сервиса в systemctl Linux",
+            "bg_color": "#5a0000",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/2020-11-28_custom_service.md"
+        },
+        "prava_dostupa_k_faylam_v_linux": {
+            "label": "Права доступа к файлам в Linux",
+            "bg_color": "#5a0000",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/2020-11-28_file_access_rights_linux.md"
+        },
+        "uznat_ip_adresa_v_lokalnoy_seti_linux": {
+            "label": "Узнать IP адреса в локальной сети linux",
+            "bg_color": "#5a0000",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/2020-11-28_get_local_ip_linux.md"
+        }
+    },
+    "edges": {
+        "tag": {
+            "sozdanie_sobstvennogo_servisa_v_systemctl_linux": {
+                "weight": 1.0,
+                "color": "#000000"
+            },
+            "prava_dostupa_k_faylam_v_linux": {
+                "weight": 1.0,
+                "color": "#000000"
+            },
+            "uznat_ip_adresa_v_lokalnoy_seti_linux": {
+                "weight": 1.0,
+                "color": "#000000"
+            }
+        }
+    }
+};
+</script>
+</body>
+</html>

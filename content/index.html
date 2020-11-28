@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Стартовая страница</title>
+
+    <script src="jquery-3.5.1.min.js"
+            type="application/javascript"></script>
+    <script src="arbor.js"
+            type="application/javascript"></script>
+    <script src="utils.js"
+            type="application/javascript"></script>
+    <script src="rendering.js"
+            type="application/javascript"></script>
+
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+            overflow: hidden;
+        }
+
+        button {
+            position: absolute;
+            display: inline-block;
+        }
+    </style>
+
+</head>
+<body>
+<!--<button id="btn">Скопировать координаты</button>-->
+<canvas id="viewport" width="1000" height="1000"></canvas>
+<script type="application/javascript">
+    let main_data_block = {
+    "nodes": {
+        "sozdanie_sobstvennogo_servisa_v_systemctl_linux": {
+            "label": "Создание собственного сервиса в systemctl Linux",
+            "bg_color": "#5a0000",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/2020-11-28_custom_service.md",
+            "filename": "2020-11-28_custom_service.md"
+        },
+        "linux": {
+            "label": "linux",
+            "bg_color": "#04266c",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/meta_linux.html",
+            "filename": "meta_linux.html"
+        },
+        "systemctl": {
+            "label": "systemctl",
+            "bg_color": "#04266c",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/meta_systemctl.html",
+            "filename": "meta_systemctl.html"
+        },
+        "prava_dostupa_k_faylam_v_linux": {
+            "label": "Права доступа к файлам в Linux",
+            "bg_color": "#5a0000",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/2020-11-28_file_access_rights_linux.md",
+            "filename": "2020-11-28_file_access_rights_linux.md"
+        },
+        "sistemnoe_administrirovanie": {
+            "label": "системное администрирование",
+            "bg_color": "#04266c",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/meta_sistemnoe_administrirovanie.html",
+            "filename": "meta_sistemnoe_administrirovanie.html"
+        },
+        "uznat_ip_adresa_v_lokalnoy_seti_linux": {
+            "label": "Узнать IP адреса в локальной сети linux",
+            "bg_color": "#5a0000",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/2020-11-28_get_local_ip_linux.md",
+            "filename": "2020-11-28_get_local_ip_linux.md"
+        }
+    },
+    "edges": {
+        "sozdanie_sobstvennogo_servisa_v_systemctl_linux": {
+            "linux": {
+                "weight": 1.0,
+                "color": "#000000"
+            },
+            "systemctl": {
+                "weight": 1.0,
+                "color": "#000000"
+            }
+        },
+        "prava_dostupa_k_faylam_v_linux": {
+            "sistemnoe_administrirovanie": {
+                "weight": 1.0,
+                "color": "#000000"
+            },
+            "linux": {
+                "weight": 1.0,
+                "color": "#000000"
+            }
+        },
+        "uznat_ip_adresa_v_lokalnoy_seti_linux": {
+            "sistemnoe_administrirovanie": {
+                "weight": 1.0,
+                "color": "#000000"
+            },
+            "linux": {
+                "weight": 1.0,
+                "color": "#000000"
+            }
+        }
+    }
+};
+</script>
+</body>
+</html>
