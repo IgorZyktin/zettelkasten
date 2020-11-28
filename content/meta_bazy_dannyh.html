@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Все вхождения тега "базы данных"</title>
+
+    <script src="jquery-3.5.1.min.js"
+            type="application/javascript"></script>
+    <script src="arbor.js"
+            type="application/javascript"></script>
+    <script src="utils.js"
+            type="application/javascript"></script>
+    <script src="rendering.js"
+            type="application/javascript"></script>
+
+    <style type="text/css">
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+            overflow: hidden;
+        }
+
+        button {
+            position: absolute;
+            display: inline-block;
+        }
+    </style>
+
+</head>
+<body>
+<!--<button id="btn">Скопировать координаты</button>-->
+<canvas id="viewport" width="1000" height="1000"></canvas>
+<script type="application/javascript">
+    let main_data_block = {
+    "nodes": {
+        "tag": {
+            "label": "Все вхождения тега \"базы данных\"",
+            "bg_color": "#04266c",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/content/meta_bazy_dannyh.md",
+            "filename": "meta_bazy_dannyh.html"
+        },
+        "ustanovka_clickhouse_na_ubuntu": {
+            "label": "Установка ClickHouse на Ubuntu",
+            "bg_color": "#5a0000",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/content/2020-07-12_clickhouse_install_ubuntu.md"
+        },
+        "poleznye_komandy_clickhouse": {
+            "label": "Полезные команды ClickHouse",
+            "bg_color": "#5a0000",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/content/2020-07-12_clickhouse_snippets.md"
+        },
+        "avtomaticheskoe_partitsionirovanie_postgresql": {
+            "label": "Автоматическое партиционирование PostgreSQL",
+            "bg_color": "#5a0000",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/content/2020-07-17_psql_autopart.md"
+        },
+        "partitsionirovanie_tablits_postgresql": {
+            "label": "Партиционирование таблиц PostgreSQL",
+            "bg_color": "#5a0000",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/content/2020-07-17_psql_partitioning.md"
+        },
+        "triggery_postgresql": {
+            "label": "Триггеры PostgreSQL",
+            "bg_color": "#5a0000",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/content/2020-07-17_psql_triggers.md"
+        },
+        "ustanovka_sqlite_na_linux": {
+            "label": "Установка SQLite на Linux",
+            "bg_color": "#5a0000",
+            "link": "localexplorer:C:/Users/MainUser/YandexDisk/zettelkasten_target/content/2020-09-02_linux_sqlite.md"
+        }
+    },
+    "edges": {
+        "tag": {
+            "ustanovka_clickhouse_na_ubuntu": {
+                "weight": 1.0,
+                "color": "#000000"
+            },
+            "poleznye_komandy_clickhouse": {
+                "weight": 1.0,
+                "color": "#000000"
+            },
+            "avtomaticheskoe_partitsionirovanie_postgresql": {
+                "weight": 1.0,
+                "color": "#000000"
+            },
+            "partitsionirovanie_tablits_postgresql": {
+                "weight": 1.0,
+                "color": "#000000"
+            },
+            "triggery_postgresql": {
+                "weight": 1.0,
+                "color": "#000000"
+            },
+            "ustanovka_sqlite_na_linux": {
+                "weight": 1.0,
+                "color": "#000000"
+            }
+        }
+    }
+};
+</script>
+</body>
+</html>

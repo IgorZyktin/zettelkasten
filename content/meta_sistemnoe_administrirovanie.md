@@ -2,7 +2,11 @@
 
 ---
 
-1 из 2. [Права доступа к файлам в Linux](./2020-11-28_file_access_rights_linux.md)
+1 из 4. [RDP на несколько пользователей](./2020-07-17_windows_multiuser_rdp.md)
 
-2 из 2. [Узнать IP адреса в локальной сети linux](./2020-11-28_get_local_ip_linux.md)
+2 из 4. [Создание собственного сервиса в systemctl Linux](./2020-11-28_custom_service.md)
+
+3 из 4. [Права доступа к файлам в Linux](./2020-11-28_file_access_rights_linux.md)
+
+4 из 4. [Узнать IP адреса в локальной сети linux](./2020-11-28_get_local_ip_linux.md)
 

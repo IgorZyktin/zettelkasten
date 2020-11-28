@@ -5,12 +5,11 @@
 
 ---
 
-[\#linux](./meta_linux.md)
+\# linux
 
-[\#системное администрирование](./meta_sistemnoe_administrirovanie.md)
+\# системное администрирование
 
-
-Удобный вариант это использовать программу nmap:
+Удобно для этого использовать программу nmap:
 ```
 sudo apt-get install nmap
 ```
