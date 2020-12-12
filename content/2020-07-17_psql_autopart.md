@@ -2,9 +2,9 @@
 
 ---
 
-\# базы данных
+[базы данных](./meta_bazy_dannyh.md)
 
-\# postgresql
+[postgresql](./meta_postgresql.md)
 
 
 Очень неудобно, что таблицы в Postgres не партиционируются самостоятельно.

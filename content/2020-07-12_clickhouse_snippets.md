@@ -2,9 +2,9 @@
 
 ---
 
-\# clickhouse
+[clickhouse](./meta_clickhouse.md)
 
-\# базы данных
+[базы данных](./meta_bazy_dannyh.md)
 
 ### Узнать сколько места занимают те или иные таблицы:
 

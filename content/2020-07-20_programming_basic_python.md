@@ -4,7 +4,7 @@
 
 ---
 
-[\#python](./meta_python.md)
+[python](./meta_python.md)
 
 ## Обзор
 

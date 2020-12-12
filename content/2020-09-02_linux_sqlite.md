@@ -2,11 +2,11 @@
 
 ---
 
-\# базы данных
+[базы данных](./meta_bazy_dannyh.md)
 
-\# linux
+[linux](./meta_linux.md)
 
-\# sqlite
+[sqlite](./meta_sqlite.md)
 
 
 Простая установка на Ubuntu:

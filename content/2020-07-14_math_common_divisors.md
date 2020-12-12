@@ -4,7 +4,7 @@
 
 ---
 
-\# математика
+[математика](./meta_matematika.md)
 
 Вычисление можно проводить на примере задачи:
 
@@ -85,11 +85,7 @@ LCM/НОК равно 2<sup>3</sup> * 3<sup>2</sup> * 5 * 7 * 11 = 27 720
 
 Пример вычисления для 140 и 96:
 
-![divisor]
-
-[divisor]: 2020-07-14_math_common_divisors_nod3.png
-
-
+![divisor](./2020-07-14_math_common_divisors_nod3.png)
 
 GCD равен 4.
 

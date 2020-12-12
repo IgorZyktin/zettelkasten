@@ -2,11 +2,11 @@
 
 ---
 
-\# linux
+[linux](./meta_linux.md)
 
-\# systemctl
+[systemctl](./meta_systemctl.md)
 
-\# системное администрирование
+[системное администрирование](./meta_sistemnoe_administrirovanie.md)
 
 Необходимо создать файл с именем оканчивающимся на **.service**:
 > sudo nano /etc/systemd/system/my_app.service

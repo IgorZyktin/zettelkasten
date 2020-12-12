@@ -2,41 +2,62 @@
 
 ---
 
-01 из 19. [Установка ClickHouse на Ubuntu](./2020-07-12_clickhouse_install_ubuntu.md)
+1 из 7. [Clickhouse](./meta_clickhouse.md)
 
-02 из 19. [Полезные команды ClickHouse](./2020-07-12_clickhouse_snippets.md)
+* [Установка ClickHouse на Ubuntu](./2020-07-12_clickhouse_install_ubuntu.md)
 
-03 из 19. [Fluent Python, Лучано Рамальо](./2020-07-12_fluent_python.md)
+* [Полезные команды ClickHouse](./2020-07-12_clickhouse_snippets.md)
 
-04 из 19. [Простой Python, Билл Любанович](./2020-07-12_introducing_python.md)
 
-05 из 19. [Serious Python, Джульен Данжу](./2020-07-12_serious_python.md)
+2 из 7. [Linux](./meta_linux.md)
 
-06 из 19. [Разработка веб приложений на Flask, Мигель Гринберг](./2020-07-12_web_prilozhenia_flask.md)
+* [Создание собственного сервиса в systemctl Linux](./2020-11-28_custom_service.md)
 
-07 из 19. [Общие делители](./2020-07-14_math_common_divisors.md)
+* [Права доступа к файлам в Linux](./2020-11-28_file_access_rights_linux.md)
 
-08 из 19. [Скопировать репозиторий GIT](./2020-07-17_git_repo_copy.md)
+* [Узнать IP адреса в локальной сети linux](./2020-11-28_get_local_ip_linux.md)
 
-09 из 19. [Авторизация по SSH на GitHub](./2020-07-17_git_ssh.md)
 
-10 из 19. [Идеальный программист, Роберт Мартин](./2020-07-17_idealniy_programmist_martin.md)
+3 из 7. [Python](./meta_python.md)
 
-11 из 19. [Автоматическое партиционирование PostgreSQL](./2020-07-17_psql_autopart.md)
+* [Fluent Python, Лучано Рамальо](./2020-07-12_fluent_python.md)
 
-12 из 19. [Партиционирование таблиц PostgreSQL](./2020-07-17_psql_partitioning.md)
+* [Простой Python, Билл Любанович](./2020-07-12_introducing_python.md)
 
-13 из 19. [Триггеры PostgreSQL](./2020-07-17_psql_triggers.md)
+* [Serious Python, Джульен Данжу](./2020-07-12_serious_python.md)
 
-14 из 19. [RDP на несколько пользователей](./2020-07-17_windows_multiuser_rdp.md)
+* [Разработка веб приложений на Flask, Мигель Гринберг](./2020-07-12_web_prilozhenia_flask.md)
 
-15 из 19. [Основы языка Python](./2020-07-20_programming_basic_python.md)
+* [Основы языка Python](./2020-07-20_programming_basic_python.md)
 
-16 из 19. [Установка SQLite на Linux](./2020-09-02_linux_sqlite.md)
 
-17 из 19. [Создание собственного сервиса в systemctl Linux](./2020-11-28_custom_service.md)
+4 из 7. [Windows](./meta_windows.md)
 
-18 из 19. [Права доступа к файлам в Linux](./2020-11-28_file_access_rights_linux.md)
+* [RDP на несколько пользователей](./2020-07-17_windows_multiuser_rdp.md)
 
-19 из 19. [Узнать IP адреса в локальной сети linux](./2020-11-28_get_local_ip_linux.md)
+
+5 из 7. [Базы Данных](./meta_bazy_dannyh.md)
+
+* [Автоматическое партиционирование PostgreSQL](./2020-07-17_psql_autopart.md)
+
+* [Партиционирование таблиц PostgreSQL](./2020-07-17_psql_partitioning.md)
+
+* [Триггеры PostgreSQL](./2020-07-17_psql_triggers.md)
+
+* [Установка SQLite на Linux](./2020-09-02_linux_sqlite.md)
+
+
+6 из 7. [Математика](./meta_matematika.md)
+
+* [Общие делители](./2020-07-14_math_common_divisors.md)
+
+
+7 из 7. [Программирование](./meta_programmirovanie.md)
+
+* [Скопировать репозиторий GIT](./2020-07-17_git_repo_copy.md)
+
+* [Авторизация по SSH на GitHub](./2020-07-17_git_ssh.md)
+
+* [Идеальный программист, Роберт Мартин](./2020-07-17_idealniy_programmist_martin.md)
+
 

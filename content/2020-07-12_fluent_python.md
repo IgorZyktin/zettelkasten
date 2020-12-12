@@ -6,11 +6,11 @@
 
 ---
 
-\# python
+[python](./meta_python.md)
 
-\# книги по программированию
+[книги по программированию](./meta_knigi_po_programmirovaniy.md)
 
-\# книга
+[книги](./meta_knigi.md)
 
 
 ### Что полезного

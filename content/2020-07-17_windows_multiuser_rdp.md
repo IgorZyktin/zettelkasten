@@ -2,9 +2,9 @@
 
 ---
 
-\# windows
+[windows](./meta_windows.md)
 
-\# системное администрирование
+[системное администрирование](./meta_sistemnoe_administrirovanie.md)
 
 
 ## Простой вариант
