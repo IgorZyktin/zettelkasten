@@ -1,7 +1,5 @@
 # Установка ClickHouse на Ubuntu
 
----
-
 [clickhouse](./meta_clickhouse.md)
 
 [базы данных](./meta_bazy_dannyh.md)

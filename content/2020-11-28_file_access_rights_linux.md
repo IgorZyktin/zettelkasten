@@ -1,7 +1,5 @@
 # Права доступа к файлам в Linux
 
----
-
 [linux](./meta_linux.md)
 
 [системное администрирование](./meta_sistemnoe_administrirovanie.md)

@@ -1,7 +1,5 @@
 # Установка SQLite на Linux
 
----
-
 [базы данных](./meta_bazy_dannyh.md)
 
 [linux](./meta_linux.md)

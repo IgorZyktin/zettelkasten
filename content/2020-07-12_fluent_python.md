@@ -4,8 +4,6 @@
 
 ![2020-07-12_fluent_python](./2020-07-12_fluent_python.jpg)
 
----
-
 [python](./meta_python.md)
 
 [книги по программированию](./meta_knigi_po_programmirovaniy.md)

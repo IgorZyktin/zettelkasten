@@ -1,7 +1,5 @@
 # Скопировать репозиторий GIT
 
----
-
 [программирование](./meta_programmirovanie.md)
 
 [git](./meta_git.md)

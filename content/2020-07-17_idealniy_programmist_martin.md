@@ -4,8 +4,6 @@
 
 ![2020-11-28_idealniy_programmist_martin](./2020-11-28_idealniy_programmist_martin.jpg)
 
----
-
 [программирование](./meta_programmirovanie.md)
 
 [книги по программированию](./meta_knigi_po_programmirovaniy.md)

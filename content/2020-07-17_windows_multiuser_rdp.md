@@ -1,7 +1,5 @@
 # RDP на несколько пользователей
 
----
-
 [windows](./meta_windows.md)
 
 [системное администрирование](./meta_sistemnoe_administrirovanie.md)

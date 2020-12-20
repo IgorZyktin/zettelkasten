@@ -1,7 +1,5 @@
 # Партиционирование таблиц PostgreSQL
 
----
-
 [базы данных](./meta_bazy_dannyh.md)
 
 [postgresql](./meta_postgresql.md)

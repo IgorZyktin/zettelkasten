@@ -1,7 +1,5 @@
 # Полезные команды ClickHouse
 
----
-
 [clickhouse](./meta_clickhouse.md)
 
 [базы данных](./meta_bazy_dannyh.md)

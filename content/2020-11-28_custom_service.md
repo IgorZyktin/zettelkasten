@@ -1,7 +1,5 @@
 # Создание собственного сервиса в systemctl Linux
 
----
-
 [linux](./meta_linux.md)
 
 [systemctl](./meta_systemctl.md)
