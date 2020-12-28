@@ -1,21 +1,26 @@
 ## Все вхождения тега "системное администрирование"
-1 из 4. [RDP на несколько пользователей](./2020-07-17_windows_multiuser_rdp.md)
 
-2 из 4. [Права доступа к файлам в Linux](./2020-11-28_file_access_rights_linux.md)
+1 из 6. [RDP на несколько пользователей](./2020-07-17_windows_multiuser_rdp.md)
 
-3 из 4. [Создание собственного сервиса в systemctl Linux](./2020-11-28_custom_service.md)
+2 из 6. [Авторизация по SSH на GitHub](./2020-07-17_git_ssh.md)
 
-4 из 4. [Узнать IP адреса в локальной сети linux](./2020-11-28_get_local_ip_linux.md)
+3 из 6. [Настройка aliases для SSH](./2020-12-28_ssh_aliases.md)
 
+4 из 6. [Права доступа к файлам в Linux](./2020-11-28_file_access_rights_linux.md)
+
+5 из 6. [Создание собственного сервиса в systemctl Linux](./2020-11-28_custom_service.md)
+
+6 из 6. [Узнать IP адреса в локальной сети linux](./2020-11-28_get_local_ip_linux.md)
 
 ---
 
 ### Этот тег встречается вместе с
 
+1 из 4. [linux](./meta_linux.md)
 
-1 из 3. [linux](./meta_linux.md)
+2 из 4. [ssh](./meta_ssh.md)
 
-2 из 3. [systemctl](./meta_systemctl.md)
+3 из 4. [systemctl](./meta_systemctl.md)
 
-3 из 3. [windows](./meta_windows.md)
+4 из 4. [windows](./meta_windows.md)
 
