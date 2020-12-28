@@ -19,28 +19,26 @@
 ```python
 from typing import List
 
-unsorted_array = [72, 56, 2, 6, 98, 30, 60, 23, 53, 22, 0, 99, 14]
+array = [72, 56, 2, 6, 98, 30, 60, 23, 53, 22, 0, 99, 14]
 sorted_array = [0, 2, 6, 14, 22, 23, 30, 53, 56, 60, 72, 98, 99]
 
 
-def bubble_sort(original_array: List[int]) -> List[int]:
-    array = original_array.copy()
-
-    for i in range(len(array)):
+def bubble_sort(_array: List[int]) -> None:
+    for i in range(len(_array)):
         swapped = False
 
-        for j in range(len(array) - 1 - i):
-            if array[j + 1] < array[j]:
-                array[j + 1], array[j] = array[j], array[j + 1]
+        for j in range(len(_array) - 1 - i):
+            if _array[j + 1] < _array[j]:
+                _array[j + 1], _array[j] = _array[j], _array[j + 1]
                 swapped = True
 
         if not swapped:
             break
 
-    return array
 
-
-assert bubble_sort(unsorted_array) == sorted_array
+assert array != sorted_array
+bubble_sort(array)
+assert array == sorted_array
 ```
 
 ### На что обратить внимание

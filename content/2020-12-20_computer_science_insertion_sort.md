@@ -17,26 +17,24 @@
 ```python
 from typing import List
 
-unsorted_array = [72, 56, 2, 6, 98, 30, 60, 23, 53, 22, 0, 99, 14]
+array = [72, 56, 2, 6, 98, 30, 60, 23, 53, 22, 0, 99, 14]
 sorted_array = [0, 2, 6, 14, 22, 23, 30, 53, 56, 60, 72, 98, 99]
 
 
-def insertion_sort(original_array: List[int]) -> List[int]:
-    array = original_array.copy()
-
-    for i in range(len(array)):
-        value = array[i]
+def insertion_sort(_array: List[int]) -> None:
+    for i in range(len(_array)):
+        value = _array[i]
         j = i - 1
-        while array[j] > value and j >= 0:
-            array[j + 1] = array[j]
+        while _array[j] > value and j >= 0:
+            _array[j + 1] = _array[j]
             j -= 1
             
-        array[j + 1] = value
-        
-    return array
+        _array[j + 1] = value
 
 
-assert insertion_sort(unsorted_array) == sorted_array
+assert array != sorted_array
+insertion_sort(array)
+assert array == sorted_array
 ```
 
 ### На что обратить внимание

@@ -18,29 +18,27 @@
 ```python
 from typing import List
 
-unsorted_array = [72, 56, 2, 6, 98, 30, 60, 23, 53, 22, 0, 99, 14]
+array = [72, 56, 2, 6, 98, 30, 60, 23, 53, 22, 0, 99, 14]
 sorted_array = [0, 2, 6, 14, 22, 23, 30, 53, 56, 60, 72, 98, 99]
 
 
-def selection_sort(original_array: List[int]) -> List[int]:
-    array = original_array.copy()
-
-    for i in range(len(array)):
-        minimum = array[i]
+def selection_sort(_array: List[int]) -> None:
+    for i in range(len(_array)):
+        minimum = _array[i]
         minimum_index = i
 
-        for j in range(i, len(array)):
-            if array[j] < minimum:
-                minimum = array[j]
+        for j in range(i, len(_array)):
+            if _array[j] < minimum:
+                minimum = _array[j]
                 minimum_index = j
 
-        if array[i] > array[minimum_index]:
-            array[i], array[minimum_index] = array[minimum_index], array[i]
-
-    return array
+        if _array[i] > _array[minimum_index]:
+            _array[i], _array[minimum_index] = _array[minimum_index], _array[i]
 
 
-assert selection_sort(unsorted_array) == sorted_array
+assert array != sorted_array
+selection_sort(array)
+assert array == sorted_array
 ```
 
 ### На что обратить внимание

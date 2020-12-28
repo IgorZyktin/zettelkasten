@@ -19,28 +19,33 @@
 ```python
 from typing import List
 
-unsorted_array = [72, 56, 2, 6, 98, 30, 60, 23, 53, 22, 0, 99, 14]
+array = [72, 56, 2, 6, 98, 30, 60, 23, 53, 22, 0, 99, 14]
 sorted_array = [0, 2, 6, 14, 22, 23, 30, 53, 56, 60, 72, 98, 99]
 
 
-def counting_sort(original_array: List[int]) -> List[int]:
-    statistic = [0] * (max(original_array) + 1)
+def counting_sort(_array: List[int]) -> None:
+    # для выполнения вычислений нам надо знать максимальный элемент
+    maximum = 0
+    for i in range(len(_array)):
+        if _array[i] > maximum:
+            maximum = _array[i]
 
-    for i in range(len(original_array)):
-        statistic[original_array[i]] += 1
+    # собираем статистику по частоте каждого элемента в массиве
+    statistic = [0] * (maximum + 1)
+    for i in range(len(_array)):
+        statistic[_array[i]] += 1
 
-    array = [0] * len(original_array)
-
+    # заполняем массив значениями
     position = 0
-    for number, times in enumerate(statistic):
-        for _ in range(times):
-            array[position] = number
-            position += 1
-
-    return array
+    for index, times in enumerate(statistic):
+        for i in range(times):
+            _array[position + i] = index
+        position += times
 
 
-assert counting_sort(unsorted_array) == sorted_array
+assert array != sorted_array
+counting_sort(array)
+assert array == sorted_array
 ```
 
 ### На что обратить внимание
