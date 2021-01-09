@@ -11,13 +11,15 @@
 
 * [Акронимы в программировании](./2020-12-17_acronims_in_programming.md)
 
-* [Пузырьковая сортировка](./2020-12-20_computer_science_bubble_sort.md)
+* [Побитовые операции](./2021-01-09_computer_science_bitwise.md)
 
 * [Сортировка вставками](./2020-12-20_computer_science_insertion_sort.md)
 
 * [Сортировка выбором](./2020-12-20_computer_science_selection_sort.md)
 
 * [Сортировка подсчётом](./2020-12-20_computer_science_counting_sort.md)
+
+* [Сортировка пузырьком](./2020-12-20_computer_science_bubble_sort.md)
 
 
 3 из 9. [Linux](./meta_linux.md)

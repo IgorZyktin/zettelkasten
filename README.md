@@ -1,4 +1,5 @@
 Данный репозиторий был собран с помощью проекта Minimus: https://github.com/IgorZyktin/minimus
+ 
 # Все записи
 
 1 из 9. [Clickhouse](./content/meta_clickhouse.md)
@@ -12,13 +13,15 @@
 
 * [Акронимы в программировании](./content/2020-12-17_acronims_in_programming.md)
 
-* [Пузырьковая сортировка](./content/2020-12-20_computer_science_bubble_sort.md)
+* [Побитовые операции](./content/2021-01-09_computer_science_bitwise.md)
 
 * [Сортировка вставками](./content/2020-12-20_computer_science_insertion_sort.md)
 
 * [Сортировка выбором](./content/2020-12-20_computer_science_selection_sort.md)
 
 * [Сортировка подсчётом](./content/2020-12-20_computer_science_counting_sort.md)
+
+* [Сортировка пузырьком](./content/2020-12-20_computer_science_bubble_sort.md)
 
 
 3 из 9. [Linux](./content/meta_linux.md)
