@@ -4,9 +4,9 @@
 
 ![2020-07-12_serious_python](./2020-07-12_serious_python.png)
 
-[python](./meta_python.md)
-
 [книги по программированию](./meta_knigi_po_programmirovaniy.md)
+
+[python](./meta_python.md)
 
 [книги](./meta_knigi.md)
 

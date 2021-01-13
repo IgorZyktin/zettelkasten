@@ -16,11 +16,13 @@
 
 ### Этот тег встречается вместе с
 
-1 из 4. [linux](./meta_linux.md)
+1 из 5. [git](./meta_git.md)
 
-2 из 4. [ssh](./meta_ssh.md)
+2 из 5. [linux](./meta_linux.md)
 
-3 из 4. [systemctl](./meta_systemctl.md)
+3 из 5. [ssh](./meta_ssh.md)
 
-4 из 4. [windows](./meta_windows.md)
+4 из 5. [systemctl](./meta_systemctl.md)
+
+5 из 5. [windows](./meta_windows.md)
 

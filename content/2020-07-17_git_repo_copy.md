@@ -1,10 +1,9 @@
 # Скопировать репозиторий GIT
 
-[программирование](./meta_programmirovanie.md)
-
 [git](./meta_git.md)
 
-[github](./meta_github.md)
+[программирование](./meta_programmirovanie.md)
+
 
 ### Создание полноценной копии старого репозитория на новом месте:
 

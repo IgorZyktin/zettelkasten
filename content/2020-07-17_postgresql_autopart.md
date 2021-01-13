@@ -1,8 +1,8 @@
 # Автоматическое партиционирование PostgreSQL
 
-[базы данных](./meta_bazy_dannyh.md)
-
 [postgresql](./meta_postgresql.md)
+
+[базы данных](./meta_bazy_dannyh.md)
 
 
 Очень неудобно, что таблицы в Postgres не партиционируются самостоятельно.

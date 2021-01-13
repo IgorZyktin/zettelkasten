@@ -8,5 +8,7 @@
 
 ### Этот тег встречается вместе с
 
-1 из 1. [системное администрирование](./meta_sistemnoe_administrirovanie.md)
+1 из 2. [git](./meta_git.md)
+
+2 из 2. [системное администрирование](./meta_sistemnoe_administrirovanie.md)
 

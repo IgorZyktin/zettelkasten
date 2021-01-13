@@ -4,9 +4,9 @@
 
 ![2020-07-12_web_prilozhenia_flask](./2020-07-12_web_prilozhenia_flask.jpg)
 
-[python](./meta_python.md)
-
 [книги по программированию](./meta_knigi_po_programmirovaniy.md)
+
+[python](./meta_python.md)
 
 [книги](./meta_knigi.md)
 

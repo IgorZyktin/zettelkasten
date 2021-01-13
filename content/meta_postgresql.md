@@ -1,10 +1,12 @@
 ## Все вхождения тега "postgresql"
 
-1 из 3. [Автоматическое партиционирование PostgreSQL](./2020-07-17_psql_autopart.md)
+1 из 4. [Автоматическое партиционирование PostgreSQL](./2020-07-17_postgresql_autopart.md)
 
-2 из 3. [Партиционирование таблиц PostgreSQL](./2020-07-17_psql_partitioning.md)
+2 из 4. [Партиционирование таблиц PostgreSQL](./2020-07-17_postgresql_partitioning.md)
 
-3 из 3. [Триггеры PostgreSQL](./2020-07-17_psql_triggers.md)
+3 из 4. [Полезные команды PostgreSQL](./2021-01-13_postgresql_snippets.md)
+
+4 из 4. [Триггеры PostgreSQL](./2020-07-17_postgresql_triggers.md)
 
 ---
 
