@@ -83,6 +83,8 @@
 
 * [Разработка веб приложений на Flask, Мигель Гринберг](./2020-07-12_web_prilozhenia_flask.md)
 
+* [Чистая архитектура, Роберт Мартин](./2021-02-28_chistaya_architectura_martin.md)
+
 
 11 из 11. [Математика](./meta_matematika.md)
 
