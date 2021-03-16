@@ -1,5 +1,6 @@
 ## Все вхождения тега "базы данных"
 
+
 1 из 7. [Автоматическое партиционирование PostgreSQL](./2020-07-17_postgresql_autopart.md)
 
 2 из 7. [Партиционирование таблиц PostgreSQL](./2020-07-17_postgresql_partitioning.md)
@@ -14,9 +15,10 @@
 
 7 из 7. [Установка SQLite на Linux](./2020-09-02_linux_sqlite.md)
 
----
+
 
 ### Этот тег встречается вместе с
+
 
 1 из 4. [clickhouse](./meta_clickhouse.md)
 

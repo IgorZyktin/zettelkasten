@@ -33,6 +33,8 @@ int main(int argc, char *argv[])
 ```
 
 > gcc temp.c -o temp
+> 
 > sudo mv ./temp /usr/local/bin/
+> 
 > $ temp
 >> CPU Temp: 42.35°C

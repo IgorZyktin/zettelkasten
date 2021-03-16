@@ -2,98 +2,88 @@
  
 # Все записи
 
-01 из 12. [Clickhouse](./content/meta_clickhouse.md)
 
-* [Полезные команды ClickHouse](./content/2020-07-12_clickhouse_snippets.md)
+01 из 13. [Clickhouse](./content/meta_clickhouse.md)
 
 * [Установка ClickHouse на Ubuntu](./content/2020-07-12_clickhouse_install_ubuntu.md)
 
+* [Полезные команды ClickHouse](./content/2020-07-12_clickhouse_snippets.md)
 
-02 из 12. [Computer Science](./content/meta_computer_science.md)
+02 из 13. [Computer Science](./content/meta_computer_science.md)
 
 * [Акронимы в программировании](./content/2020-12-17_acronims_in_programming.md)
 
-* [Побитовые операции](./content/2021-01-09_computer_science_bitwise.md)
+* [Сортировка пузырьком](./content/2020-12-20_computer_science_bubble_sort.md)
+
+* [Сортировка подсчётом](./content/2020-12-20_computer_science_counting_sort.md)
 
 * [Сортировка вставками](./content/2020-12-20_computer_science_insertion_sort.md)
 
 * [Сортировка выбором](./content/2020-12-20_computer_science_selection_sort.md)
 
-* [Сортировка подсчётом](./content/2020-12-20_computer_science_counting_sort.md)
+* [Побитовые операции](./content/2021-01-09_computer_science_bitwise.md)
 
-* [Сортировка пузырьком](./content/2020-12-20_computer_science_bubble_sort.md)
-
-
-03 из 12. [Git](./content/meta_git.md)
-
-* [Авторизация по SSH на GitHub](./content/2020-07-17_git_ssh.md)
+03 из 13. [Git](./content/meta_git.md)
 
 * [Скопировать репозиторий GIT](./content/2020-07-17_git_repo_copy.md)
 
+* [Авторизация по SSH на GitHub](./content/2020-07-17_git_ssh.md)
 
-04 из 12. [Linux](./content/meta_linux.md)
-
-* [Права доступа к файлам в Linux](./content/2020-11-28_file_access_rights_linux.md)
+04 из 13. [Linux](./content/meta_linux.md)
 
 * [Создание собственного сервиса в systemctl Linux](./content/2020-11-28_custom_service.md)
 
+* [Права доступа к файлам в Linux](./content/2020-11-28_file_access_rights_linux.md)
+
 * [Узнать IP адреса в локальной сети linux](./content/2020-11-28_get_local_ip_linux.md)
 
-
-05 из 12. [Postgresql](./content/meta_postgresql.md)
+05 из 13. [Postgresql](./content/meta_postgresql.md)
 
 * [Автоматическое партиционирование PostgreSQL](./content/2020-07-17_postgresql_autopart.md)
 
 * [Партиционирование таблиц PostgreSQL](./content/2020-07-17_postgresql_partitioning.md)
 
-* [Полезные команды PostgreSQL](./content/2021-01-13_postgresql_snippets.md)
-
 * [Триггеры PostgreSQL](./content/2020-07-17_postgresql_triggers.md)
 
+* [Полезные команды PostgreSQL](./content/2021-01-13_postgresql_snippets.md)
 
-06 из 12. [Python](./content/meta_python.md)
-
-* [Массовое обновление пакетов виртуального окружения](./content/2021-01-12_python_selective_upgrade.md)
+06 из 13. [Python](./content/meta_python.md)
 
 * [Основы языка Python](./content/2020-07-20_programming_basic_python.md)
 
+* [Массовое обновление пакетов виртуального окружения](./content/2021-01-12_python_selective_upgrade.md)
 
-07 из 12. [Ssh](./content/meta_ssh.md)
+07 из 13. [Ssh](./content/meta_ssh.md)
 
 * [Настройка aliases для SSH](./content/2020-12-28_ssh_aliases.md)
 
-
-08 из 12. [Windows](./content/meta_windows.md)
+08 из 13. [Windows](./content/meta_windows.md)
 
 * [RDP на несколько пользователей](./content/2020-07-17_windows_multiuser_rdp.md)
 
-
-09 из 12. [Базы Данных](./content/meta_bazy_dannyh.md)
+09 из 13. [Базы Данных](./content/meta_bazy_dannyh.md)
 
 * [Установка SQLite на Linux](./content/2020-09-02_linux_sqlite.md)
 
-
-10 из 12. [Книги По Программированию](./content/meta_knigi_po_programmirovaniy.md)
+10 из 13. [Книги По Программированию](./content/meta_knigi_po_programmirovaniy.md)
 
 * [Fluent Python, Лучано Рамальо](./content/2020-07-12_fluent_python.md)
 
-* [Serious Python, Джульен Данжу](./content/2020-07-12_serious_python.md)
-
-* [Идеальный программист, Роберт Мартин](./content/2020-07-17_idealniy_programmist_martin.md)
-
 * [Простой Python, Билл Любанович](./content/2020-07-12_introducing_python.md)
+
+* [Serious Python, Джульен Данжу](./content/2020-07-12_serious_python.md)
 
 * [Разработка веб приложений на Flask, Мигель Гринберг](./content/2020-07-12_web_prilozhenia_flask.md)
 
+* [Идеальный программист, Роберт Мартин](./content/2020-07-17_idealniy_programmist_martin.md)
+
 * [Чистая архитектура, Роберт Мартин](./content/2021-02-28_chistaya_architectura_martin.md)
 
-
-11 из 12. [Математика](./content/meta_matematika.md)
+11 из 13. [Математика](./content/meta_matematika.md)
 
 * [Общие делители](./content/2020-07-14_math_common_divisors.md)
 
-
-12 из 12. [Системное Администрирование](./content/meta_sistemnoe_administrirovanie.md)
+12 из 13. [Системное Администрирование](./content/meta_sistemnoe_administrirovanie.md)
 
 * [RaspberryPI](./content/2021-03-01_raspberry_pi.md)
 
@@ -103,4 +93,9 @@
 
 * [Утилита traceroute](./content/2021-03-05_traceroute.md)
 
+* [Утилита iperf](./content/2021-03-15_iperf.md)
+
+13 из 13. [Тестирование](./content/meta_testirovanie.md)
+
+* [Инструмент tox](./content/2021-03-15_tox.md)
 
