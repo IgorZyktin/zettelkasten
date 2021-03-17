@@ -5,35 +5,35 @@
 
 01 из 13. [Clickhouse](./content/meta_clickhouse.md)
 
-* [Установка ClickHouse на Ubuntu](./content/2020-07-12_clickhouse_install_ubuntu.md)
-
 * [Полезные команды ClickHouse](./content/2020-07-12_clickhouse_snippets.md)
+
+* [Установка ClickHouse на Ubuntu](./content/2020-07-12_clickhouse_install_ubuntu.md)
 
 02 из 13. [Computer Science](./content/meta_computer_science.md)
 
 * [Акронимы в программировании](./content/2020-12-17_acronims_in_programming.md)
 
-* [Сортировка пузырьком](./content/2020-12-20_computer_science_bubble_sort.md)
-
-* [Сортировка подсчётом](./content/2020-12-20_computer_science_counting_sort.md)
+* [Побитовые операции](./content/2021-01-09_computer_science_bitwise.md)
 
 * [Сортировка вставками](./content/2020-12-20_computer_science_insertion_sort.md)
 
 * [Сортировка выбором](./content/2020-12-20_computer_science_selection_sort.md)
 
-* [Побитовые операции](./content/2021-01-09_computer_science_bitwise.md)
+* [Сортировка подсчётом](./content/2020-12-20_computer_science_counting_sort.md)
+
+* [Сортировка пузырьком](./content/2020-12-20_computer_science_bubble_sort.md)
 
 03 из 13. [Git](./content/meta_git.md)
 
-* [Скопировать репозиторий GIT](./content/2020-07-17_git_repo_copy.md)
-
 * [Авторизация по SSH на GitHub](./content/2020-07-17_git_ssh.md)
+
+* [Скопировать репозиторий GIT](./content/2020-07-17_git_repo_copy.md)
 
 04 из 13. [Linux](./content/meta_linux.md)
 
-* [Создание собственного сервиса в systemctl Linux](./content/2020-11-28_custom_service.md)
-
 * [Права доступа к файлам в Linux](./content/2020-11-28_file_access_rights_linux.md)
+
+* [Создание собственного сервиса в systemctl Linux](./content/2020-11-28_custom_service.md)
 
 * [Узнать IP адреса в локальной сети linux](./content/2020-11-28_get_local_ip_linux.md)
 
@@ -43,15 +43,15 @@
 
 * [Партиционирование таблиц PostgreSQL](./content/2020-07-17_postgresql_partitioning.md)
 
-* [Триггеры PostgreSQL](./content/2020-07-17_postgresql_triggers.md)
-
 * [Полезные команды PostgreSQL](./content/2021-01-13_postgresql_snippets.md)
+
+* [Триггеры PostgreSQL](./content/2020-07-17_postgresql_triggers.md)
 
 06 из 13. [Python](./content/meta_python.md)
 
-* [Основы языка Python](./content/2020-07-20_programming_basic_python.md)
-
 * [Массовое обновление пакетов виртуального окружения](./content/2021-01-12_python_selective_upgrade.md)
+
+* [Основы языка Python](./content/2020-07-20_programming_basic_python.md)
 
 07 из 13. [Ssh](./content/meta_ssh.md)
 
@@ -69,13 +69,13 @@
 
 * [Fluent Python, Лучано Рамальо](./content/2020-07-12_fluent_python.md)
 
-* [Простой Python, Билл Любанович](./content/2020-07-12_introducing_python.md)
-
 * [Serious Python, Джульен Данжу](./content/2020-07-12_serious_python.md)
 
-* [Разработка веб приложений на Flask, Мигель Гринберг](./content/2020-07-12_web_prilozhenia_flask.md)
-
 * [Идеальный программист, Роберт Мартин](./content/2020-07-17_idealniy_programmist_martin.md)
+
+* [Простой Python, Билл Любанович](./content/2020-07-12_introducing_python.md)
+
+* [Разработка веб приложений на Flask, Мигель Гринберг](./content/2020-07-12_web_prilozhenia_flask.md)
 
 * [Чистая архитектура, Роберт Мартин](./content/2021-02-28_chistaya_architectura_martin.md)
 
@@ -87,13 +87,13 @@
 
 * [RaspberryPI](./content/2021-03-01_raspberry_pi.md)
 
+* [Утилита iperf](./content/2021-03-15_iperf.md)
+
 * [Утилита ping](./content/2021-03-05_ping.md)
 
 * [Утилита screen](./content/2021-03-05_screen.md)
 
 * [Утилита traceroute](./content/2021-03-05_traceroute.md)
-
-* [Утилита iperf](./content/2021-03-15_iperf.md)
 
 13 из 13. [Тестирование](./content/meta_testirovanie.md)
 
