@@ -1,49 +1,91 @@
-# Сортировка выбором
+# Сортировка слиянием
 
-Один из самых простых алгоритмов сортировки, выполняется за O(n^2).
+Распространённый алгоритмов сортировки, выполняется за O(n * log(n)).
 
 [computer science](./meta_computer_science.md)
 
 [алгоритмы сортировки](./meta_algoritmy_sortirovki.md)
 
-
 ### Основная идея
 
-Мы постоянно вытаскиевам минимальный элемент из массива и 
-перекладываем его в отсортированный массив. Когда в исходном массиве не 
-останется элементов, выходной массив можно будет считать отсортированным.
+Слияние двух заранее отсортированных массивов выполняется за линейное время. 
+Поэтому нам надо разбить исходный массив данных на одиночные элементы, а потом 
+их постепенно друг с другом слить.
+
+Фаза дробления выполняется за O(log(n)), фаза слияния за O(n), 
+вся сортировка за O(n*log(n)).
 
 ### Реализация на python
 
 ```python
 from typing import List
 
-array = [72, 56, 2, 6, 98, 30, 60, 23, 53, 22, 0, 99, 14]
-sorted_array = [0, 2, 6, 14, 22, 23, 30, 53, 56, 60, 72, 98, 99]
+
+def merge(left: List[int], right: List[int]) -> List[int]:
+    """Объединение двух заранее отсортированных массивов.
+    """
+    if not left:
+        return right
+
+    if not right:
+        return left
+
+    result = []
+    left_index = 0
+    right_index = 0
+    left_len = len(left)
+    right_len = len(right)
+
+    while True:
+        if left_index >= left_len:
+            result.extend(right[right_index:])
+            break
+
+        if right_index >= right_len:
+            result.extend(left[left_index:])
+            break
+
+        if left[left_index] <= right[right_index]:
+            result.append(left[left_index])
+            left_index += 1
+        else:
+            result.append(right[right_index])
+            right_index += 1
+
+    return result
+	
+
+def test_merge():
+    seq1 = [1, 4, 7, 9 ]
+    seq2 = [3, 5, 8, 11]
+    print('Проверка слияния двух массивов:', merge(seq1, seq2))
 
 
-def selection_sort(_array: List[int]) -> None:
-    for i in range(len(_array)):
-        minimum = _array[i]
-        minimum_index = i
+def merge_sort(sequence: List[int]) -> List[int]:
+    """Реализация сортировки слиянием.
+    """
+    if len(sequence) > 1:
+        # сортировка работает на обратном ходе рекурсии,
+        # поэтому мы дробим список до тех пор, пока не останется 
+        # один или 0 элементов
+        middle = len(sequence) // 2
+        left = merge_sort(sequence[:middle])
+        right = merge_sort(sequence[middle:])
+        result = merge(left, right)
+        return result
+    return sequence
 
-        for j in range(i, len(_array)):
-            if _array[j] < minimum:
-                minimum = _array[j]
-                minimum_index = j
 
-        if _array[i] > _array[minimum_index]:
-            _array[i], _array[minimum_index] = _array[minimum_index], _array[i]
+def test_sort():
+    seq = [5, 8, 2, 0, 5, 6, 22, 64, 94, 11, 23, 2]
+    print('Проверка сортировки:', merge_sort(seq))
 
 
-assert array != sorted_array
-selection_sort(array)
-assert array == sorted_array
+if __name__ == '__main__':
+    test_merge()
+    test_sort()
 ```
 
 ### На что обратить внимание
 
-1. Сортировка выбором в разных реализация может быть как устойчива, так и неустойчива.
-1. Во внутреннем цикле счёт идёт от i а не от нуля т.к. в начале массива 
-находятся уже отсортированные элементы.
-1. В идеальном случае сортировка всё-равно выполнится за O(n^2).
+1. Не может быть выполнена быстрее, чем за O(n*log(n)).

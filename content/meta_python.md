@@ -1,19 +1,21 @@
 ## Все вхождения тега "python"
 
 
-1 из 7. [Fluent Python, Лучано Рамальо](./2020-07-12_fluent_python.md)
+1 из 8. [Fluent Python, Лучано Рамальо](./2020-07-12_fluent_python.md)
 
-2 из 7. [Serious Python, Джульен Данжу](./2020-07-12_serious_python.md)
+2 из 8. [Pyenv](./2021-04-18_pyenv.md)
 
-3 из 7. [Инструмент tox](./2021-03-15_tox.md)
+3 из 8. [Serious Python, Джульен Данжу](./2020-07-12_serious_python.md)
 
-4 из 7. [Массовое обновление пакетов виртуального окружения](./2021-01-12_python_selective_upgrade.md)
+4 из 8. [Инструмент tox](./2021-03-15_tox.md)
 
-5 из 7. [Основы языка Python](./2020-07-20_programming_basic_python.md)
+5 из 8. [Массовое обновление пакетов виртуального окружения](./2021-01-12_python_selective_upgrade.md)
 
-6 из 7. [Простой Python, Билл Любанович](./2020-07-12_introducing_python.md)
+6 из 8. [Основы языка Python](./2020-07-20_programming_basic_python.md)
 
-7 из 7. [Разработка веб приложений на Flask, Мигель Гринберг](./2020-07-12_web_prilozhenia_flask.md)
+7 из 8. [Простой Python, Билл Любанович](./2020-07-12_introducing_python.md)
+
+8 из 8. [Разработка веб приложений на Flask, Мигель Гринберг](./2020-07-12_web_prilozhenia_flask.md)
 
 
 

@@ -1,0 +1,57 @@
+# Создание собственного сервиса
+
+Инструкция по созданию демона в операционной системе.
+
+[linux](./meta_linux.md)
+
+[системное администрирование](./meta_sistemnoe_administrirovanie.md)
+
+
+Необходимо создать файл с именем оканчивающимся на **.service**:
+```shell
+sudo nano /etc/systemd/system/my_app.service
+```
+
+Удобно держать в репозитории проекта локальный вариант, а потом копировать его в систему по необходимости:
+```shell
+sudo cp ./my_app.service /etc/systemd/system/my_app.service
+```
+
+В файл надо записать данные:
+```
+[Unit]
+Description=My cool app description
+After=network.target
+
+[Service]
+User=some_user
+WorkingDirectory=/home/some_user/my_app_folder
+Environment= DB_PATH="/home/some_user/database"
+ExecStart=/home/some_user/my_app_folder/run_app.sh
+
+[Install]
+WantedBy=multi-user.target
+```
+Дополнительно можно использовать поле **EnvironmentFile=** с указанием пути до текстового файла, тогда переменные среды будут загружаться оттуда.
+
+Убедиться, что есть права на запуск скрипта:
+```shell
+chmod +x ./run_app.sh
+```
+
+Затем можно запустить сервис:
+```shell
+sudo systemctl start my_app
+sudo systemctl enable my_app
+sudo systemctl status my_app
+```
+
+Посмотреть лог сервиса:
+```shell
+sudo journalctl --unit=my_app
+```
+
+Удалить сервис:
+```shell
+sudo systemctl disable my_app
+```

@@ -4,6 +4,38 @@
 
 [базы данных](./meta_bazy_dannyh.md)
 
+# Установка на Ubuntu
+
+```shell
+sudo apt update
+sudo apt install postgresql postgresql-contrib
+sudo -i -u postgres
+psql
+\q
+sudo -u postgres createuser --interactive
+sudo adduser new_user_name
+sudo passwd postgres
+su - postgres
+psql -d template1 -c "ALTER USER postgres WITH PASSWORD 'NewPassword';"
+create database my_db;
+grant all privileges on database my_db to new_user_name;
+sudo nano /etc/postgresql/x.x/main/pg_hba.conf
+```
+
+Ввести:
+```
+host	all	all	0.0.0.0/0		md5
+host	all	all	::0/0       md5
+```
+```
+sudo nano /etc/postgresql/x.x/main/postgresqlconf.conf
+```
+
+Раскомментировать:
+```
+listen_addresses = '*'
+```
+
 ### Получить размер всех баз данных на данном сервере
 
 ```sql
