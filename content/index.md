@@ -119,6 +119,8 @@
 
 * [Инструмент Docker](./2021-03-29_docker.md)
 
+* [Числа с плавающей запятой](./2021-04-25_floating_point.md)
+
 16 из 17. [Системное Администрирование](./meta_sistemnoe_administrirovanie.md)
 
 * [NGINX](./2021-04-18_nginx.md)
