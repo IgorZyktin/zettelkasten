@@ -3,13 +3,13 @@
 # Все записи
 
 
-01 из 17. [Clickhouse](./content/meta_clickhouse.md)
+01 из 18. [Clickhouse](./content/meta_clickhouse.md)
 
 * [Полезные команды ClickHouse](./content/2020-07-12_clickhouse_snippets.md)
 
 * [Установка ClickHouse на Ubuntu](./content/2020-07-12_clickhouse_install_ubuntu.md)
 
-02 из 17. [Computer Science](./content/meta_computer_science.md)
+02 из 18. [Computer Science](./content/meta_computer_science.md)
 
 * [Акронимы в программировании](./content/2020-12-17_acronims_in_programming.md)
 
@@ -27,7 +27,7 @@
 
 * [Сортировка слиянием](./content/2020-12-20_computer_science_selection_sort.md)
 
-03 из 17. [Git](./content/meta_git.md)
+03 из 18. [Git](./content/meta_git.md)
 
 * [Авторизация по SSH на GitHub](./content/2020-07-17_git_ssh.md)
 
@@ -35,11 +35,11 @@
 
 * [Скопировать репозиторий GIT](./content/2020-07-17_git_repo_copy.md)
 
-04 из 17. [Grafana](./content/meta_grafana.md)
+04 из 18. [Grafana](./content/meta_grafana.md)
 
 * [Полезные команды Grafana](./content/2021-04-18_grafana_snippets.md)
 
-05 из 17. [Linux](./content/meta_linux.md)
+05 из 18. [Linux](./content/meta_linux.md)
 
 * [Linux OOM killer](./content/2021-04-18_linux_oom_killer.md)
 
@@ -57,7 +57,7 @@
 
 * [Узнать IP адреса в локальной сети linux](./content/2020-11-28_get_local_ip_linux.md)
 
-06 из 17. [Postgresql](./content/meta_postgresql.md)
+06 из 18. [Postgresql](./content/meta_postgresql.md)
 
 * [Автоматическое партиционирование PostgreSQL](./content/2020-07-17_postgresql_autopart.md)
 
@@ -67,7 +67,7 @@
 
 * [Триггеры PostgreSQL](./content/2020-07-17_postgresql_triggers.md)
 
-07 из 17. [Python](./content/meta_python.md)
+07 из 18. [Python](./content/meta_python.md)
 
 * [Pyenv](./content/2021-04-18_pyenv.md)
 
@@ -75,29 +75,35 @@
 
 * [Основы языка Python](./content/2020-07-20_programming_basic_python.md)
 
-08 из 17. [Rapsberrypi](./content/meta_rapsberrypi.md)
+08 из 18. [Rapsberrypi](./content/meta_rapsberrypi.md)
 
 * [Запуск Samba на raspberry Pi4](./content/2021-04-18_samba_on_rapsberrypi4.md)
 
-09 из 17. [Sqlite](./content/meta_sqlite.md)
+09 из 18. [Sqlite](./content/meta_sqlite.md)
 
 * [Полезные команды SQLite](./content/2021-04-18_sqlite_snippets.md)
 
-10 из 17. [Ssh](./content/meta_ssh.md)
+10 из 18. [Ssh](./content/meta_ssh.md)
 
 * [SSH](./content/2021-04-18_ssh.md)
 
 * [Настройка aliases для SSH](./content/2020-12-28_ssh_aliases.md)
 
-11 из 17. [Windows](./content/meta_windows.md)
+11 из 18. [Windows](./content/meta_windows.md)
 
 * [RDP на несколько пользователей](./content/2020-07-17_windows_multiuser_rdp.md)
 
-12 из 17. [Базы Данных](./content/meta_bazy_dannyh.md)
+12 из 18. [Базы Данных](./content/meta_bazy_dannyh.md)
 
 * [Установка SQLite на Linux](./content/2020-09-02_linux_sqlite.md)
 
-13 из 17. [Книги По Программированию](./content/meta_knigi_po_programmirovaniy.md)
+13 из 18. [Книги](./content/meta_knigi.md)
+
+* [Дизайн привычных вещей, Норман](./content/2021-05-02_dizayn_privichnih_veshey_norman.md)
+
+* [Жизнь замечательных устройств, Аркадий Курамшин](./content/2021-05-02_jizn_zamechatelnih_ustroistv.md)
+
+14 из 18. [Книги По Программированию](./content/meta_knigi_po_programmirovaniy.md)
 
 * [Fluent Python, Лучано Рамальо](./content/2020-07-12_fluent_python.md)
 
@@ -105,25 +111,29 @@
 
 * [Идеальный программист, Роберт Мартин](./content/2020-07-17_idealniy_programmist_martin.md)
 
+* [Компьютерные сети, Танненбаум](./content/2021-05-02_computernie_seti_tannenbaum.md)
+
+* [Операционные системы, Танненбаум](./content/2021-05-02_operacionnie_systemy_tannenbaum.md)
+
 * [Простой Python, Билл Любанович](./content/2020-07-12_introducing_python.md)
 
 * [Разработка веб приложений на Flask, Мигель Гринберг](./content/2020-07-12_web_prilozhenia_flask.md)
 
 * [Чистая архитектура, Роберт Мартин](./content/2021-02-28_chistaya_architectura_martin.md)
 
-14 из 17. [Математика](./content/meta_matematika.md)
+15 из 18. [Математика](./content/meta_matematika.md)
 
 * [Общие делители](./content/2020-07-14_math_common_divisors.md)
 
 * [Общие делители](./content/2021-04-18_math_divisor.md)
 
-15 из 17. [Программирование](./content/meta_programmirovanie.md)
+16 из 18. [Программирование](./content/meta_programmirovanie.md)
 
 * [Инструмент Docker](./content/2021-03-29_docker.md)
 
 * [Числа с плавающей запятой](./content/2021-04-25_floating_point.md)
 
-16 из 17. [Системное Администрирование](./content/meta_sistemnoe_administrirovanie.md)
+17 из 18. [Системное Администрирование](./content/meta_sistemnoe_administrirovanie.md)
 
 * [NGINX](./content/2021-04-18_nginx.md)
 
@@ -137,7 +147,7 @@
 
 * [Утилита traceroute](./content/2021-03-05_traceroute.md)
 
-17 из 17. [Тестирование](./content/meta_testirovanie.md)
+18 из 18. [Тестирование](./content/meta_testirovanie.md)
 
 * [Инструмент tox](./content/2021-03-15_tox.md)
 
