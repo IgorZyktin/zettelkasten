@@ -123,8 +123,6 @@
 
 * [Общие делители](./2020-07-14_math_common_divisors.md)
 
-* [Общие делители](./2021-04-18_math_divisor.md)
-
 16 из 18. [Программирование](./meta_programmirovanie.md)
 
 * [Инструмент Docker](./2021-03-29_docker.md)
