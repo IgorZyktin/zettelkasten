@@ -7,9 +7,9 @@
 
 3 из 8. [Идеальный программист, Роберт Мартин](./2020-07-17_idealniy_programmist_martin.md)
 
-4 из 8. [Компьютерные сети, Танненбаум](./2021-05-02_computernie_seti_tannenbaum.md)
+4 из 8. [Компьютерные сети, Эндрю Танненбаум](./2021-05-02_computernie_seti_tannenbaum.md)
 
-5 из 8. [Операционные системы, Танненбаум](./2021-05-02_operacionnie_systemy_tannenbaum.md)
+5 из 8. [Операционные системы, Эндрю Танненбаум](./2021-05-02_operacionnie_systemy_tannenbaum.md)
 
 6 из 8. [Простой Python, Билл Любанович](./2020-07-12_introducing_python.md)
 

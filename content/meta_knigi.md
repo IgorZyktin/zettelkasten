@@ -5,15 +5,15 @@
 
 02 из 10. [Serious Python, Джульен Данжу](./2020-07-12_serious_python.md)
 
-03 из 10. [Дизайн привычных вещей, Норман](./2021-05-02_dizayn_privichnih_veshey_norman.md)
+03 из 10. [Дизайн привычных вещей, Дон Норман](./2021-05-02_dizayn_privichnih_veshey_norman.md)
 
 04 из 10. [Жизнь замечательных устройств, Аркадий Курамшин](./2021-05-02_jizn_zamechatelnih_ustroistv.md)
 
 05 из 10. [Идеальный программист, Роберт Мартин](./2020-07-17_idealniy_programmist_martin.md)
 
-06 из 10. [Компьютерные сети, Танненбаум](./2021-05-02_computernie_seti_tannenbaum.md)
+06 из 10. [Компьютерные сети, Эндрю Танненбаум](./2021-05-02_computernie_seti_tannenbaum.md)
 
-07 из 10. [Операционные системы, Танненбаум](./2021-05-02_operacionnie_systemy_tannenbaum.md)
+07 из 10. [Операционные системы, Эндрю Танненбаум](./2021-05-02_operacionnie_systemy_tannenbaum.md)
 
 08 из 10. [Простой Python, Билл Любанович](./2020-07-12_introducing_python.md)
 

@@ -1,25 +1,23 @@
 ## Все вхождения тега "computer science"
 
 
-01 из 10. [Акронимы в программировании](./2020-12-17_acronims_in_programming.md)
+1 из 9. [Акронимы в программировании](./2020-12-17_acronims_in_programming.md)
 
-02 из 10. [Быстрая сортировка](./2021-04-18_computer_science_merge_sort.md)
+2 из 9. [Быстрая сортировка (quick sort)](./2021-04-18_computer_science_quick_sort.md)
 
-03 из 10. [Быстрая сортировка](./2021-04-18_computer_science_quick_sort.md)
+3 из 9. [Компьютерные сети, Эндрю Танненбаум](./2021-05-02_computernie_seti_tannenbaum.md)
 
-04 из 10. [Компьютерные сети, Танненбаум](./2021-05-02_computernie_seti_tannenbaum.md)
+4 из 9. [Операционные системы, Эндрю Танненбаум](./2021-05-02_operacionnie_systemy_tannenbaum.md)
 
-05 из 10. [Операционные системы, Танненбаум](./2021-05-02_operacionnie_systemy_tannenbaum.md)
+5 из 9. [Побитовые операции](./2021-01-09_computer_science_bitwise.md)
 
-06 из 10. [Побитовые операции](./2021-01-09_computer_science_bitwise.md)
+6 из 9. [Сортировка вставками (insertion sort)](./2020-12-20_computer_science_insertion_sort.md)
 
-07 из 10. [Сортировка вставками](./2020-12-20_computer_science_insertion_sort.md)
+7 из 9. [Сортировка подсчётом (counting sort)](./2020-12-20_computer_science_counting_sort.md)
 
-08 из 10. [Сортировка подсчётом](./2020-12-20_computer_science_counting_sort.md)
+8 из 9. [Сортировка пузырьком (bubble sort)](./2020-12-20_computer_science_bubble_sort.md)
 
-09 из 10. [Сортировка пузырьком](./2020-12-20_computer_science_bubble_sort.md)
-
-10 из 10. [Сортировка слиянием](./2020-12-20_computer_science_selection_sort.md)
+9 из 9. [Сортировка слиянием (merge sort)](./2020-12-20_computer_science_merge_sort.md)
 
 
 
