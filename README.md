@@ -67,6 +67,8 @@
 
 * [Основы языка Python](./content/2020-07-20_programming_basic_python.md)
 
+* [Рецепты python](./content/python_snippets.md)
+
 08 из 19. [Rapsberrypi](./content/meta_rapsberrypi.md)
 
 * [Запуск Samba на raspberry Pi4](./content/2021-04-18_samba_on_rapsberrypi4.md)

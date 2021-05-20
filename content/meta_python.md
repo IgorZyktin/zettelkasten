@@ -1,25 +1,27 @@
 ## Все вхождения тега "python"
 
 
-01 из 10. [Fluent Python, Лучано Рамальо](./2020-07-12_fluent_python.md)
+01 из 11. [Fluent Python, Лучано Рамальо](./2020-07-12_fluent_python.md)
 
-02 из 10. [Media Storage System](./2021-05-08_experience_media_storage_system.md)
+02 из 11. [Media Storage System](./2021-05-08_experience_media_storage_system.md)
 
-03 из 10. [Pyenv](./2021-04-18_pyenv.md)
+03 из 11. [Pyenv](./2021-04-18_pyenv.md)
 
-04 из 10. [Serious Python, Джульен Данжу](./2020-07-12_serious_python.md)
+04 из 11. [Serious Python, Джульен Данжу](./2020-07-12_serious_python.md)
 
-05 из 10. [Инструмент tox](./2021-03-15_tox.md)
+05 из 11. [Инструмент tox](./2021-03-15_tox.md)
 
-06 из 10. [Массовое обновление пакетов виртуального окружения](./2021-01-12_python_selective_upgrade.md)
+06 из 11. [Массовое обновление пакетов виртуального окружения](./2021-01-12_python_selective_upgrade.md)
 
-07 из 10. [Основы языка Python](./2020-07-20_programming_basic_python.md)
+07 из 11. [Основы языка Python](./2020-07-20_programming_basic_python.md)
 
-08 из 10. [Простой Python, Билл Любанович](./2020-07-12_introducing_python.md)
+08 из 11. [Простой Python, Билл Любанович](./2020-07-12_introducing_python.md)
 
-09 из 10. [Разработка веб приложений на Flask, Мигель Гринберг](./2020-07-12_web_prilozhenia_flask.md)
+09 из 11. [Разработка веб приложений на Flask, Мигель Гринберг](./2020-07-12_web_prilozhenia_flask.md)
 
-10 из 10. [Числа с плавающей запятой](./2021-04-25_floating_point.md)
+10 из 11. [Рецепты python](./python_snippets.md)
+
+11 из 11. [Числа с плавающей запятой](./2021-04-25_floating_point.md)
 
 
 

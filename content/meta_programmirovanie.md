@@ -1,25 +1,27 @@
 ## Все вхождения тега "программирование"
 
 
-01 из 10. [Media Storage System](./2021-05-08_experience_media_storage_system.md)
+01 из 11. [Media Storage System](./2021-05-08_experience_media_storage_system.md)
 
-02 из 10. [Pyenv](./2021-04-18_pyenv.md)
+02 из 11. [Pyenv](./2021-04-18_pyenv.md)
 
-03 из 10. [Идеальный программист, Роберт Мартин](./2020-07-17_idealniy_programmist_martin.md)
+03 из 11. [Идеальный программист, Роберт Мартин](./2020-07-17_idealniy_programmist_martin.md)
 
-04 из 10. [Инструмент Docker](./2021-03-29_docker.md)
+04 из 11. [Инструмент Docker](./2021-03-29_docker.md)
 
-05 из 10. [Инструмент tox](./2021-03-15_tox.md)
+05 из 11. [Инструмент tox](./2021-03-15_tox.md)
 
-06 из 10. [Массовое обновление пакетов виртуального окружения](./2021-01-12_python_selective_upgrade.md)
+06 из 11. [Массовое обновление пакетов виртуального окружения](./2021-01-12_python_selective_upgrade.md)
 
-07 из 10. [Полезные команды GIT](./2021-04-18_git_snippets.md)
+07 из 11. [Полезные команды GIT](./2021-04-18_git_snippets.md)
 
-08 из 10. [Скопировать репозиторий GIT](./2020-07-17_git_repo_copy.md)
+08 из 11. [Рецепты python](./python_snippets.md)
 
-09 из 10. [Числа с плавающей запятой](./2021-04-25_floating_point.md)
+09 из 11. [Скопировать репозиторий GIT](./2020-07-17_git_repo_copy.md)
 
-10 из 10. [Чистая архитектура, Роберт Мартин](./2021-02-28_chistaya_architectura_martin.md)
+10 из 11. [Числа с плавающей запятой](./2021-04-25_floating_point.md)
+
+11 из 11. [Чистая архитектура, Роберт Мартин](./2021-02-28_chistaya_architectura_martin.md)
 
 
 
