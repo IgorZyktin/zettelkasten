@@ -1,7 +1,7 @@
 ## Все вхождения тега "опыт разработки"
 
 
-1 из 1. [Media Storage System](./2021-05-08_experience_media_storage_system.md)
+1 из 1. [Media Storage System](./experience_media_storage_system.md)
 
 
 

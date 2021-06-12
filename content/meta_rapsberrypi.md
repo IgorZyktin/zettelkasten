@@ -1,7 +1,7 @@
 ## Все вхождения тега "rapsberrypi"
 
 
-1 из 1. [Запуск Samba на raspberry Pi4](./2021-04-18_samba_on_rapsberrypi4.md)
+1 из 1. [Samba](./sys_tools_samba.md)
 
 
 

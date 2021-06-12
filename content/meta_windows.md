@@ -1,7 +1,7 @@
 ## Все вхождения тега "windows"
 
 
-1 из 1. [RDP на несколько пользователей](./2020-07-17_windows_multiuser_rdp.md)
+1 из 1. [RDP на несколько пользователей](./sys_windows_multiuser_rdp.md)
 
 
 

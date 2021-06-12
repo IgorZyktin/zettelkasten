@@ -1,7 +1,7 @@
 ## Все вхождения тега "nginx"
 
 
-1 из 1. [NGINX](./2021-04-18_nginx.md)
+1 из 1. [NGINX](./cs_tools_nginx.md)
 
 
 

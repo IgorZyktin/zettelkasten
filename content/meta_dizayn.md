@@ -1,7 +1,7 @@
 ## Все вхождения тега "дизайн"
 
 
-1 из 1. [Дизайн привычных вещей, Дон Норман](./2021-05-02_dizayn_privichnih_veshey_norman.md)
+1 из 1. [Дизайн привычных вещей, Дон Норман](./books_dizayn_privichnih_veshey_norman.md)
 
 
 

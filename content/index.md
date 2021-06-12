@@ -1,41 +1,33 @@
 # Все записи
 
 
-01 из 19. [Clickhouse](./meta_clickhouse.md)
+01 из 16. [Clickhouse](./meta_clickhouse.md)
 
 * [Полезные команды ClickHouse](./2020-07-12_clickhouse_snippets.md)
 
 * [Установка ClickHouse на Ubuntu](./2020-07-12_clickhouse_install_ubuntu.md)
 
-02 из 19. [Computer Science](./meta_computer_science.md)
+02 из 16. [Computer Science](./meta_computer_science.md)
 
-* [Акронимы в программировании](./2020-12-17_acronims_in_programming.md)
+* [Акронимы в программировании](./cs_theory_acronims.md)
 
-* [Быстрая сортировка (quick sort)](./2021-04-18_computer_science_quick_sort.md)
+* [Быстрая сортировка (quick sort)](./cs_theory_quick_sort.md)
 
-* [Побитовые операции](./2021-01-09_computer_science_bitwise.md)
+* [Побитовые операции](./cs_theory_bitwise.md)
 
-* [Сортировка вставками (insertion sort)](./2020-12-20_computer_science_insertion_sort.md)
+* [Сортировка вставками (insertion sort)](./cs_theory_insertion_sort.md)
 
-* [Сортировка подсчётом (counting sort)](./2020-12-20_computer_science_counting_sort.md)
+* [Сортировка подсчётом (counting sort)](./cs_theory_counting_sort.md)
 
-* [Сортировка пузырьком (bubble sort)](./2020-12-20_computer_science_bubble_sort.md)
+* [Сортировка пузырьком (bubble sort)](./cs_theory_bubble_sort.md)
 
-* [Сортировка слиянием (merge sort)](./2020-12-20_computer_science_merge_sort.md)
+* [Сортировка слиянием (merge sort)](./cs_theory_merge_sort.md)
 
-03 из 19. [Git](./meta_git.md)
-
-* [Авторизация по SSH на GitHub](./2020-07-17_git_ssh.md)
-
-* [Полезные команды GIT](./2021-04-18_git_snippets.md)
-
-* [Скопировать репозиторий GIT](./2020-07-17_git_repo_copy.md)
-
-04 из 19. [Grafana](./meta_grafana.md)
+03 из 16. [Grafana](./meta_grafana.md)
 
 * [Полезные команды Grafana](./2021-04-18_grafana_snippets.md)
 
-05 из 19. [Linux](./meta_linux.md)
+04 из 16. [Linux](./meta_linux.md)
 
 * [Linux OOM killer](./2021-04-18_linux_oom_killer.md)
 
@@ -47,101 +39,87 @@
 
 * [Узнать IP адреса в локальной сети](./2021-04-18_linux_ip_addresses_in_lan.md)
 
-06 из 19. [Postgresql](./meta_postgresql.md)
+05 из 16. [Python](./meta_python.md)
 
-* [Автоматическое партиционирование PostgreSQL](./2020-07-17_postgresql_autopart.md)
+* [Инструмент pyenv](./cs_tools_pyenv.md)
 
-* [Партиционирование таблиц PostgreSQL](./2020-07-17_postgresql_partitioning.md)
+* [Основы языка python](./cs_basics_python.md)
 
-* [Полезные команды PostgreSQL](./2021-01-13_postgresql_snippets.md)
+* [Рецепты python](./cs_snippets_python.md)
 
-* [Триггеры PostgreSQL](./2020-07-17_postgresql_triggers.md)
+06 из 16. [Ssh](./meta_ssh.md)
 
-07 из 19. [Python](./meta_python.md)
+* [SSH](./cs_tools_ssh.md)
 
-* [Pyenv](./2021-04-18_pyenv.md)
+07 из 16. [Windows](./meta_windows.md)
 
-* [Массовое обновление пакетов виртуального окружения](./2021-01-12_python_selective_upgrade.md)
+* [RDP на несколько пользователей](./sys_windows_multiuser_rdp.md)
 
-* [Основы языка Python](./2020-07-20_programming_basic_python.md)
+08 из 16. [Базы Данных](./meta_bazy_dannyh.md)
 
-* [Рецепты python](./python_snippets.md)
+* [PostgreSQL](./cs_tools_postgresql.md)
 
-08 из 19. [Rapsberrypi](./meta_rapsberrypi.md)
+* [SQLite](./cs_tools_sqlite.md)
 
-* [Запуск Samba на raspberry Pi4](./2021-04-18_samba_on_rapsberrypi4.md)
+09 из 16. [Девайсы](./meta_devaysy.md)
 
-09 из 19. [Sqlite](./meta_sqlite.md)
+* [RaspberryPI](./devices_raspberry_pi.md)
 
-* [Полезные команды SQLite](./2021-04-18_sqlite_snippets.md)
+10 из 16. [Книги](./meta_knigi.md)
 
-10 из 19. [Ssh](./meta_ssh.md)
+* [Дизайн привычных вещей, Дон Норман](./books_dizayn_privichnih_veshey_norman.md)
 
-* [SSH](./2021-04-18_ssh.md)
+* [Жизнь замечательных устройств, Аркадий Курамшин](./books_jizn_zamechatelnih_ustroistv.md)
 
-* [Настройка aliases для SSH](./2020-12-28_ssh_aliases.md)
+11 из 16. [Книги По Программированию](./meta_knigi_po_programmirovaniy.md)
 
-11 из 19. [Windows](./meta_windows.md)
+* [Fluent Python, Лучано Рамальо](./cs_books_fluent_python.md)
 
-* [RDP на несколько пользователей](./2020-07-17_windows_multiuser_rdp.md)
+* [Serious Python, Джульен Данжу](./cs_books_serious_python.md)
 
-12 из 19. [Базы Данных](./meta_bazy_dannyh.md)
+* [Идеальный программист, Роберт Мартин](./cs_books_idealniy_programmist_martin.md)
 
-* [Установка SQLite на Linux](./2020-09-02_linux_sqlite.md)
+* [Компьютерные сети, Эндрю Танненбаум](./cs_books_computernie_seti_tannenbaum.md)
 
-13 из 19. [Книги](./meta_knigi.md)
+* [Операционные системы, Эндрю Танненбаум](./cs_books_operacionnie_systemy_tannenbaum.md)
 
-* [Дизайн привычных вещей, Дон Норман](./2021-05-02_dizayn_privichnih_veshey_norman.md)
+* [Простой Python, Билл Любанович](./cs_books_introducing_python.md)
 
-* [Жизнь замечательных устройств, Аркадий Курамшин](./2021-05-02_jizn_zamechatelnih_ustroistv.md)
+* [Разработка веб приложений на Flask, Мигель Гринберг](./cs_books_web_prilozhenia_flask.md)
 
-14 из 19. [Книги По Программированию](./meta_knigi_po_programmirovaniy.md)
+* [Чистая архитектура, Роберт Мартин](./cs_books_chistaya_architectura_martin.md)
 
-* [Fluent Python, Лучано Рамальо](./2020-07-12_fluent_python.md)
+12 из 16. [Математика](./meta_matematika.md)
 
-* [Serious Python, Джульен Данжу](./2020-07-12_serious_python.md)
+* [Общие делители](./math_common_divisors.md)
 
-* [Идеальный программист, Роберт Мартин](./2020-07-17_idealniy_programmist_martin.md)
+13 из 16. [Опыт Разработки](./meta_opyt_razrabotki.md)
 
-* [Компьютерные сети, Эндрю Танненбаум](./2021-05-02_computernie_seti_tannenbaum.md)
+* [Media Storage System](./experience_media_storage_system.md)
 
-* [Операционные системы, Эндрю Танненбаум](./2021-05-02_operacionnie_systemy_tannenbaum.md)
+14 из 16. [Программирование](./meta_programmirovanie.md)
 
-* [Простой Python, Билл Любанович](./2020-07-12_introducing_python.md)
+* [Инструмент GIT](./cs_tools_git.md)
 
-* [Разработка веб приложений на Flask, Мигель Гринберг](./2020-07-12_web_prilozhenia_flask.md)
+* [Числа с плавающей запятой](./cs_theory_floating_point.md)
 
-* [Чистая архитектура, Роберт Мартин](./2021-02-28_chistaya_architectura_martin.md)
+15 из 16. [Системное Администрирование](./meta_sistemnoe_administrirovanie.md)
 
-15 из 19. [Математика](./meta_matematika.md)
+* [NGINX](./cs_tools_nginx.md)
 
-* [Общие делители](./2020-07-14_math_common_divisors.md)
+* [Samba](./sys_tools_samba.md)
 
-16 из 19. [Опыт Разработки](./meta_opyt_razrabotki.md)
+* [Инструмент Docker](./cs_tools_docker.md)
 
-* [Media Storage System](./2021-05-08_experience_media_storage_system.md)
+* [Утилита iperf](./cs_utils_iperf.md)
 
-17 из 19. [Программирование](./meta_programmirovanie.md)
+* [Утилита ping](./cs_utils_ping.md)
 
-* [Инструмент Docker](./2021-03-29_docker.md)
+* [Утилита screen](./cs_utils_screen.md)
 
-* [Числа с плавающей запятой](./2021-04-25_floating_point.md)
+* [Утилита traceroute](./cs_utils_traceroute.md)
 
-18 из 19. [Системное Администрирование](./meta_sistemnoe_administrirovanie.md)
+16 из 16. [Тестирование](./meta_testirovanie.md)
 
-* [NGINX](./2021-04-18_nginx.md)
-
-* [RaspberryPI](./2021-03-01_raspberry_pi.md)
-
-* [Утилита iperf](./2021-03-15_iperf.md)
-
-* [Утилита ping](./2021-03-05_ping.md)
-
-* [Утилита screen](./2021-03-05_screen.md)
-
-* [Утилита traceroute](./2021-03-05_traceroute.md)
-
-19 из 19. [Тестирование](./meta_testirovanie.md)
-
-* [Инструмент tox](./2021-03-15_tox.md)
+* [Инструмент tox](./cs_tools_tox.md)
 

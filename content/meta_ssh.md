@@ -1,18 +1,18 @@
 ## Все вхождения тега "ssh"
 
 
-1 из 3. [SSH](./2021-04-18_ssh.md)
+1 из 2. [SSH](./cs_tools_ssh.md)
 
-2 из 3. [Авторизация по SSH на GitHub](./2020-07-17_git_ssh.md)
-
-3 из 3. [Настройка aliases для SSH](./2020-12-28_ssh_aliases.md)
+2 из 2. [Инструмент GIT](./cs_tools_git.md)
 
 
 
 ### Этот тег встречается вместе с
 
 
-1 из 2. [git](./meta_git.md)
+1 из 3. [git](./meta_git.md)
 
-2 из 2. [системное администрирование](./meta_sistemnoe_administrirovanie.md)
+2 из 3. [программирование](./meta_programmirovanie.md)
+
+3 из 3. [системное администрирование](./meta_sistemnoe_administrirovanie.md)
 
