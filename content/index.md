@@ -31,6 +31,8 @@
 
 * [Linux OOM killer](./2021-04-18_linux_oom_killer.md)
 
+* [Монтирование носителя в linux](./sys_linux_mount.md)
+
 * [Права доступа на файлы в Linux](./2021-04-18_linux_file_access.md)
 
 * [Создание собственного сервиса](./2021-04-18_linux_custom_service.md)
@@ -114,6 +116,8 @@
 * [Утилита iperf](./cs_utils_iperf.md)
 
 * [Утилита ping](./cs_utils_ping.md)
+
+* [Утилита scp](./cs_utils_scp.md)
 
 * [Утилита screen](./cs_utils_screen.md)
 
