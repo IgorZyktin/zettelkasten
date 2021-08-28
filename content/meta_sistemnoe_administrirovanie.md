@@ -48,7 +48,7 @@
 
 03 из 10. [nginx](./meta_nginx.md)
 
-04 из 10. [rapsberrypi](./meta_rapsberrypi.md)
+04 из 10. [raspberry](./meta_raspberry.md)
 
 05 из 10. [raspberrypi](./meta_raspberrypi.md)
 
