@@ -4,7 +4,7 @@ Samba обеспечивает возможность раздавать фай�
 
 [системное администрирование](./meta_sistemnoe_administrirovanie.md)
 
-[raspberry](./meta_raspberry.md)
+[raspberrypi](./meta_raspberrypi.md)
 
 ## Запуск Samba на raspberry Pi4
 

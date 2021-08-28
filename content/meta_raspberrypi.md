@@ -1,7 +1,9 @@
 ## Все вхождения тега "raspberrypi"
 
 
-1 из 1. [RaspberryPI](./devices_raspberry_pi.md)
+1 из 2. [RaspberryPI](./devices_raspberry_pi.md)
+
+2 из 2. [Samba](./sys_tools_samba.md)
 
 
 

@@ -42,23 +42,21 @@
 ### Этот тег встречается вместе с
 
 
-01 из 10. [git](./meta_git.md)
+1 из 9. [git](./meta_git.md)
 
-02 из 10. [linux](./meta_linux.md)
+2 из 9. [linux](./meta_linux.md)
 
-03 из 10. [nginx](./meta_nginx.md)
+3 из 9. [nginx](./meta_nginx.md)
 
-04 из 10. [raspberry](./meta_raspberry.md)
+4 из 9. [raspberrypi](./meta_raspberrypi.md)
 
-05 из 10. [raspberrypi](./meta_raspberrypi.md)
+5 из 9. [ssh](./meta_ssh.md)
 
-06 из 10. [ssh](./meta_ssh.md)
+6 из 9. [windows](./meta_windows.md)
 
-07 из 10. [windows](./meta_windows.md)
+7 из 9. [девайсы](./meta_devaysy.md)
 
-08 из 10. [девайсы](./meta_devaysy.md)
+8 из 9. [программирование](./meta_programmirovanie.md)
 
-09 из 10. [программирование](./meta_programmirovanie.md)
-
-10 из 10. [утилиты](./meta_utility.md)
+9 из 9. [утилиты](./meta_utility.md)
 
