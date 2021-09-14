@@ -33,6 +33,8 @@
 
 * [Монтирование носителя в linux](./sys_linux_mount.md)
 
+* [Монтирование сетевого носителя в linux](./sys_linux_new_mount.md)
+
 * [Права доступа на файлы в Linux](./2021-04-18_linux_file_access.md)
 
 * [Создание собственного сервиса](./2021-04-18_linux_custom_service.md)

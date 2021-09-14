@@ -15,6 +15,8 @@ GIT это распределённая система контроля верс
 1. [Скопировать репозиторий GIT](#скопировать-репозиторий-GIT)
 1. [Полезные команды GIT](#полезные-команды-GIT)
 1. [Интерактивный rebase](#интерактивный-rebase)
+1. [Перенести коммит из upstream в свою ветку](#Перенести-коммит-из-upstream-в-свою-ветку)
+1. [Сделать pull поверх имеющихся изменений](#Сделать-pull-поверх-имеющихся-изменений)
 
 ## Авторизация по SSH на GitHub
 
@@ -270,4 +272,78 @@ git reset HEAD^
 
 ```shell
 git rebase --continue
+```
+
+### Перенести коммит из upstream в свою ветку
+
+Эта операция используется, когда мы работаем в fork какого-либо репозитория и
+хотим перенести к себе некоторый коммит оттуда. Но при этом не хотим тащить всю
+ветку целиком.
+
+Проверить наличие веток:
+
+```shell
+git remote -v show
+```
+
+```shell
+origin  git@some:repo.git (fetch)
+origin  git@some:repo.git (push)
+```
+
+Добавить upstream если его нет:
+
+```shell
+git remote add upstream https://github.com/openstack/nova.git
+```
+
+```shell
+git remote -v show
+```
+
+```shell
+origin  git@some:repo.git (fetch)
+origin  git@some:repo.git (push)
+upstream        https://github.com/openstack/nova.git (fetch)
+upstream        https://github.com/openstack/nova.git (push)
+```
+
+На всякий случай обновляем нужную ветку:
+
+```shell
+git fetch upstream some_branch
+```
+
+После этого вызываем операцию (с sha нужного нам коммита):
+
+```shell
+git cherry-pick -xs b6c7456face630086a0eb7fd1c8335d42ab0456a
+```
+
+Флаги:
+
+* -x добавляет имя коммита в описание
+* -s добавляет в примечание кто сделал cherry-pick
+
+После этого выбранный коммит окажется в нашей ветке.
+
+### Сделать pull поверх имеющихся изменений
+
+[Оригинал](https://stackoverflow.com/questions/1125968/git-how-do-i-force-git-pull-to-overwrite-local-files)
+
+Иногда требуется сделать нечто похожее на git push --force, но в обратную
+сторону.
+
+```shell
+git fetch --all
+git reset --hard origin/<branch_name>
+```
+
+Можно выполнить подобную операцию, сохранив локальные коммиты:
+
+```shell
+git checkout master
+git branch new-branch-to-save-current-commits
+git fetch --all
+git reset --hard origin/master
 ```
