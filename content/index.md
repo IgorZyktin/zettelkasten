@@ -35,6 +35,8 @@
 
 * [Монтирование сетевого носителя в linux](./sys_linux_new_mount.md)
 
+* [Полезные рецепты для linux](./sys_linux_snippets.md)
+
 * [Права доступа на файлы в Linux](./2021-04-18_linux_file_access.md)
 
 * [Создание собственного сервиса](./2021-04-18_linux_custom_service.md)

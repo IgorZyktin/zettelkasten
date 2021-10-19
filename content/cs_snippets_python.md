@@ -6,6 +6,8 @@
 
 1. [Понять кто меняет наш атрибут](#Понять-кто-меняет-наш-атрибут)
 1. [Массовое обновление пакетов виртуального окружения](#Массовое-обновление-пакетов-виртуального-окружения)
+1. [Установка на linux](#Установка-на-linux)
+1. [Обновление исполняемого файла на linux](#Обновление-исполняемого-файла-на-linux)
 
 ## Понять кто меняет наш атрибут
 
@@ -90,3 +92,30 @@ wheel (0.24.0) - Latest: 0.29.0 [wheel]
 возьмёт крайний левый элемент. После чего xargs последовательно будет звать "
 pip install -U" + имя пакета для каждой строки.
 
+## Установка на linux
+
+Пример прорабатывался на raspberry pi4.
+
+```shell
+sudo apt update
+sudo apt-get install build-essential libssl-dev libffi-dev python3-dev cargo
+wget https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tgz
+tar -zxvf Python-3.9.5.tgz
+cd Python-3.9.5
+./configure --enable-optimizations
+sudo make altinstall
+```
+
+## Обновление исполняемого файла на linux
+
+Исполняемые файлы на linux обычно располагаются в /usr/local/bin или /usr/bin.
+Чтобы заменить программу, достаточно изменить содержимое этого каталога.
+
+Для примера я переключу команду python на использование python3.9.
+
+```shell
+cd /usr/bin
+sudo rm python
+sudo ln -s /usr/local/bin/python3.9 python
+python --version
+```
