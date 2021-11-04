@@ -1,135 +1,140 @@
 Данный репозиторий был собран с помощью проекта Minimus: https://github.com/IgorZyktin/minimus
  
-# Все записи
+# Всего записей: 51 шт.
 
+ - Computer science
 
-01 из 16. [Clickhouse](./content/meta_clickhouse.md)
+   - [Акронимы в программировании](./content/Computer%20science/Акронимы%20в%20программировании.md)
 
-* [Полезные команды ClickHouse](./content/2020-07-12_clickhouse_snippets.md)
+   - [Побитовые операции](./content/Computer%20science/Побитовые%20операции.md)
 
-* [Установка ClickHouse на Ubuntu](./content/2020-07-12_clickhouse_install_ubuntu.md)
+   - Сортировки
 
-02 из 16. [Computer Science](./content/meta_computer_science.md)
+     - [Быстрая сортировка (quick sort)](./content/Computer%20science/Сортировки/Быстрая%20сортировка.md)
 
-* [Акронимы в программировании](./content/cs_theory_acronims.md)
+     - [Сортировка вставками (insertion sort)](./content/Computer%20science/Сортировки/Сортировка%20вставками.md)
 
-* [Быстрая сортировка (quick sort)](./content/cs_theory_quick_sort.md)
+     - [Сортировка подсчётом (counting sort)](./content/Computer%20science/Сортировки/Сортировка%20подсчётом.md)
 
-* [Побитовые операции](./content/cs_theory_bitwise.md)
+     - [Сортировка пузырьком (bubble sort)](./content/Computer%20science/Сортировки/Сортировка%20пузырьком.md)
 
-* [Сортировка вставками (insertion sort)](./content/cs_theory_insertion_sort.md)
+     - [Сортировка слиянием (merge sort)](./content/Computer%20science/Сортировки/Сортировка%20слиянием.md)
 
-* [Сортировка подсчётом (counting sort)](./content/cs_theory_counting_sort.md)
+   - [Числа с плавающей запятой](./content/Computer%20science/Числа%20с%20плавающей%20запятой.md)
 
-* [Сортировка пузырьком (bubble sort)](./content/cs_theory_bubble_sort.md)
+ - Книги
 
-* [Сортировка слиянием (merge sort)](./content/cs_theory_merge_sort.md)
+   - Дизайн и изобретения
 
-03 из 16. [Grafana](./content/meta_grafana.md)
+     - [Аркадий Курамшин, Жизнь замечательных устройств](./content/Книги/Дизайн%20и%20изобретения/Аркадий%20Курамшин%20-%20Жизнь%20замечательных%20устройств.md)
 
-* [Полезные команды Grafana](./content/2021-04-18_grafana_snippets.md)
+     - [Дон Норман, Дизайн привычных вещей](./content/Книги/Дизайн%20и%20изобретения/Дон%20Норман%20-%20Дизайн%20привычных%20вещей.md)
 
-04 из 16. [Linux](./content/meta_linux.md)
+   - Мемуары
 
-* [Linux OOM killer](./content/2021-04-18_linux_oom_killer.md)
+     - [Бен Рич, Skunk Works](./content/Книги/Мемуары/Бен%20Рич%20-%20Skunk%20Works.md)
 
-* [Монтирование носителя в linux](./content/sys_linux_mount.md)
+     - [Ричард Фейнман, Вы конечно шутите мистер Фейнман](./content/Книги/Мемуары/Ричард%20Фейнман%20-%20Вы%20конечно%20шутите%20мистер%20Фейнман.md)
 
-* [Монтирование сетевого носителя в linux](./content/sys_linux_new_mount.md)
+     - [Тара Вестовер, Ученица](./content/Книги/Мемуары/Тара%20Вестовер%20-%20Ученица.md)
 
-* [Полезные рецепты для linux](./content/sys_linux_snippets.md)
+   - Программирование
 
-* [Права доступа на файлы в Linux](./content/2021-04-18_linux_file_access.md)
+     - [Билл Любанович, Простой Python](./content/Книги/Программирование/Билл%20Любанович%20-%20Простой%20Python.md)
 
-* [Создание собственного сервиса](./content/2021-04-18_linux_custom_service.md)
+     - [Джульен Данжу, Serious Python](./content/Книги/Программирование/Джульен%20Данжу%20-%20Serious%20Python.md)
 
-* [Стандартные команды в Linux](./content/2021-04-18_linux_default_commands.md)
+     - [Лучано Рамальо, Fluent Python](./content/Книги/Программирование/Лучано%20Рамальо%20-%20Fluent%20Python.md)
 
-* [Узнать IP адреса в локальной сети](./content/2021-04-18_linux_ip_addresses_in_lan.md)
+     - [Мигель Гринберг, Разработка веб приложений на Flask](./content/Книги/Программирование/Мигель%20Гринберг%20-%20Разработка%20веб%20приложений%20на%20Flask.md)
 
-05 из 16. [Python](./content/meta_python.md)
+     - [Роберт Мартин, Идеальный программист](./content/Книги/Программирование/Роберт%20Мартин%20-%20Идеальный%20программист.md)
 
-* [Инструмент pyenv](./content/cs_tools_pyenv.md)
+     - [Роберт Мартин, Чистая архитектура](./content/Книги/Программирование/Роберт%20Мартин%20-%20Чистая%20архитектура.md)
 
-* [Основы языка python](./content/cs_basics_python.md)
+     - [Эндрю Танненбаум, Компьютерные сети](./content/Книги/Программирование/Эндрю%20Танненбаум%20-%20Компьютерные%20сети.md)
 
-* [Рецепты python](./content/cs_snippets_python.md)
+     - [Эндрю Танненбаум, Операционные системы](./content/Книги/Программирование/Эндрю%20Танненбаум%20-%20Операционные%20системы.md)
 
-06 из 16. [Ssh](./content/meta_ssh.md)
+ - Компьютеры и софт
 
-* [SSH](./content/cs_tools_ssh.md)
+   - Linux
 
-07 из 16. [Windows](./content/meta_windows.md)
+     - [Samba](./content/Компьютеры%20и%20софт/Linux/Samba.md)
 
-* [RDP на несколько пользователей](./content/sys_windows_multiuser_rdp.md)
+     - [Монтирование носителя](./content/Компьютеры%20и%20софт/Linux/Монтирование%20носителя.md)
 
-08 из 16. [Базы Данных](./content/meta_bazy_dannyh.md)
+     - [Монтирование сетевого носителя](./content/Компьютеры%20и%20софт/Linux/Монтирование%20сетевого%20носителя.md)
 
-* [PostgreSQL](./content/cs_tools_postgresql.md)
+     - [Полезные рецепты](./content/Компьютеры%20и%20софт/Linux/Полезные%20рецепты%20Linux.md)
 
-* [SQLite](./content/cs_tools_sqlite.md)
+     - [Права доступа к файлам](./content/Компьютеры%20и%20софт/Linux/Права%20доступа%20к%20файлам.md)
 
-09 из 16. [Девайсы](./content/meta_devaysy.md)
+     - [Создание собственного сервиса](./content/Компьютеры%20и%20софт/Linux/Создание%20собственного%20сервиса.md)
 
-* [RaspberryPI](./content/devices_raspberry_pi.md)
+     - [Узнать IP адреса в локальной сети](./content/Компьютеры%20и%20софт/Linux/Узнать%20IP%20адреса%20в%20локальной%20сети.md)
 
-10 из 16. [Книги](./content/meta_knigi.md)
+   - Raspberry Pi
 
-* [Дизайн привычных вещей, Дон Норман](./content/books_dizayn_privichnih_veshey_norman.md)
+     - [Полезные рецепты](./content/Компьютеры%20и%20софт/Raspberry%20Pi/Полезные%20рецепты%20Raspberry%20Pi.md)
 
-* [Жизнь замечательных устройств, Аркадий Курамшин](./content/books_jizn_zamechatelnih_ustroistv.md)
+   - Windows
 
-11 из 16. [Книги По Программированию](./content/meta_knigi_po_programmirovaniy.md)
+     - [Полезные рецепты](./content/Компьютеры%20и%20софт/Windows/Полезные%20рецепты%20Windows.md)
 
-* [Fluent Python, Лучано Рамальо](./content/cs_books_fluent_python.md)
+     - [Удалённый рабочий стол для нескольких пользователей](./content/Компьютеры%20и%20софт/Windows/Удалённый%20рабочий%20стол%20для%20нескольких%20пользователей.md)
 
-* [Serious Python, Джульен Данжу](./content/cs_books_serious_python.md)
+   - Личный опыт
 
-* [Идеальный программист, Роберт Мартин](./content/cs_books_idealniy_programmist_martin.md)
+     - Omoide
 
-* [Компьютерные сети, Эндрю Танненбаум](./content/cs_books_computernie_seti_tannenbaum.md)
+       - [Media Storage System](./content/Компьютеры%20и%20софт/Личный%20опыт/Omoide/Media%20Storage%20System.md)
 
-* [Операционные системы, Эндрю Танненбаум](./content/cs_books_operacionnie_systemy_tannenbaum.md)
+   - Программирование
 
-* [Простой Python, Билл Любанович](./content/cs_books_introducing_python.md)
+     - [Основы языка Python](./content/Компьютеры%20и%20софт/Программирование/Основы%20языка%20Python.md)
 
-* [Разработка веб приложений на Flask, Мигель Гринберг](./content/cs_books_web_prilozhenia_flask.md)
+     - [Полезные рецепты Python](./content/Компьютеры%20и%20софт/Программирование/Полезные%20рецепты%20Python.md)
 
-* [Чистая архитектура, Роберт Мартин](./content/cs_books_chistaya_architectura_martin.md)
+   - Программные компоненты
 
-12 из 16. [Математика](./content/meta_matematika.md)
+     - [Pyenv](./content/Компьютеры%20и%20софт/Программные%20компоненты/pyenv.md)
 
-* [Общие делители](./content/math_common_divisors.md)
+     - [tox](./content/Компьютеры%20и%20софт/Программные%20компоненты/tox.md)
 
-13 из 16. [Опыт Разработки](./content/meta_opyt_razrabotki.md)
+   - Программы
 
-* [Media Storage System](./content/experience_media_storage_system.md)
+     - [ClickHouse](./content/Компьютеры%20и%20софт/Программы/Clickhouse.md)
 
-14 из 16. [Программирование](./content/meta_programmirovanie.md)
+     - [Docker](./content/Компьютеры%20и%20софт/Программы/Docker.md)
 
-* [Инструмент GIT](./content/cs_tools_git.md)
+     - [GIT](./content/Компьютеры%20и%20софт/Программы/GIT.md)
 
-* [Числа с плавающей запятой](./content/cs_theory_floating_point.md)
+     - [Grafana](./content/Компьютеры%20и%20софт/Программы/Grafana.md)
 
-15 из 16. [Системное Администрирование](./content/meta_sistemnoe_administrirovanie.md)
+     - [Kubernetes](./content/Компьютеры%20и%20софт/Программы/Kubernetes.md)
 
-* [NGINX](./content/cs_tools_nginx.md)
+     - [NGINX](./content/Компьютеры%20и%20софт/Программы/Nginx.md)
 
-* [Samba](./content/sys_tools_samba.md)
+     - [PostgreSQL](./content/Компьютеры%20и%20софт/Программы/PostgreSQL.md)
 
-* [Инструмент Docker](./content/cs_tools_docker.md)
+     - [SQLite](./content/Компьютеры%20и%20софт/Программы/SQLite.md)
 
-* [Утилита iperf](./content/cs_utils_iperf.md)
+   - Утилиты
 
-* [Утилита ping](./content/cs_utils_ping.md)
+     - [iperf](./content/Компьютеры%20и%20софт/Утилиты/Iperf.md)
 
-* [Утилита scp](./content/cs_utils_scp.md)
+     - [ping](./content/Компьютеры%20и%20софт/Утилиты/Ping.md)
 
-* [Утилита screen](./content/cs_utils_screen.md)
+     - [scp](./content/Компьютеры%20и%20софт/Утилиты/SCP.md)
 
-* [Утилита traceroute](./content/cs_utils_traceroute.md)
+     - [screen](./content/Компьютеры%20и%20софт/Утилиты/Screen.md)
 
-16 из 16. [Тестирование](./content/meta_testirovanie.md)
+     - [ssh](./content/Компьютеры%20и%20софт/Утилиты/SSH.md)
 
-* [Инструмент tox](./content/cs_tools_tox.md)
+     - [traceroute](./content/Компьютеры%20и%20софт/Утилиты/Traceroute.md)
+
+ - Математика
+
+   - [Общие делители](./content/Математика/Общие%20делители.md)
 
