@@ -1,6 +1,6 @@
 Данный репозиторий был собран с помощью проекта Minimus: https://github.com/IgorZyktin/minimus
  
-# Всего записей: 53 шт.
+# Всего записей: 54 шт.
 
  - Computer science
 
@@ -79,6 +79,8 @@
    - Raspberry Pi
 
      - [Полезные рецепты](./content/Компьютеры%20и%20софт/Raspberry%20Pi/Полезные%20рецепты%20Raspberry%20Pi.md)
+
+     - [Установка Raspbian](./content/Компьютеры%20и%20софт/Raspberry%20Pi/Установка%20Raspbian.md)
 
    - Windows
 
