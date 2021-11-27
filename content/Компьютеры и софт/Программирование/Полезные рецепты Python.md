@@ -109,10 +109,10 @@ pip install -U" + имя пакета для каждой строки.
 
 ```shell
 sudo apt update
-sudo apt-get install build-essential libssl-dev libffi-dev python3-dev cargo
-wget https://www.python.org/ftp/python/3.9.5/Python-3.9.5.tgz
-tar -zxvf Python-3.9.5.tgz
-cd Python-3.9.5
+sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget libbz2-dev cargo
+wget https://www.python.org/ftp/python/3.10.0/Python-3.10.0.tgz
+tar -zxvf Python-3.10.*.tgz
+cd Python-3.10.0
 ./configure --enable-optimizations
 sudo make altinstall
 ```
