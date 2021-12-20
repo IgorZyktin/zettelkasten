@@ -1,6 +1,6 @@
 Данный репозиторий был собран с помощью проекта Minimus: https://github.com/IgorZyktin/minimus
  
-# Всего записей: 55 шт.
+# Всего записей: 57 шт.
 
  - Computer science
 
@@ -124,6 +124,8 @@
 
      - [PostgreSQL](./content/Компьютеры%20и%20софт/Программы/PostgreSQL.md)
 
+     - [PowerShell](./content/Компьютеры%20и%20софт/Программы/PowerShell.md)
+
      - [SQLite](./content/Компьютеры%20и%20софт/Программы/SQLite.md)
 
    - Утилиты
@@ -141,6 +143,10 @@
      - [traceroute](./content/Компьютеры%20и%20софт/Утилиты/Traceroute.md)
 
      - [vi](./content/Компьютеры%20и%20софт/Утилиты/Vi.md)
+
+ - Кулинария
+
+   - [Рецепт блинов](./content/Кулинария/Рецепт%20блинов.md)
 
  - Математика
 
