@@ -1,6 +1,6 @@
 Данный репозиторий был собран с помощью проекта Minimus: https://github.com/IgorZyktin/minimus
  
-# Всего записей: 57 шт.
+# Всего записей: 58 шт.
 
  - Computer science
 
@@ -127,6 +127,8 @@
      - [PowerShell](./content/Компьютеры%20и%20софт/Программы/PowerShell.md)
 
      - [SQLite](./content/Компьютеры%20и%20софт/Программы/SQLite.md)
+
+     - [Terraform](./content/Компьютеры%20и%20софт/Программы/Terraform.md)
 
    - Утилиты
 
