@@ -25,28 +25,30 @@
 1. [Получить размер всех таблиц на данном сервере](#Получить-размер-всех-таблиц-на-данном-сервере)
 1. [Скользящая средняя](#Скользящая-средняя)
 1. [Узнать права доступа к таблицам](#Узнать-права-доступа-к-таблицам)
+1. [Обновить constraint](#Обновить-constraint)
+1. [Обменять значения в колонке](#Обменять-значения-в-колонке)
 
 ## Партиционирование таблиц
 
-Партиционирование удобно для таблиц большого размера, когда мы заранее знаем, 
+Партиционирование удобно для таблиц большого размера, когда мы заранее знаем,
 что обращаться будем в основном к каким то характерным параметрам. В данном
-случае мне потребовалось партиционировать таблицу по дате. Я знаю, что
-большая часть запросов будет идти к свежим данным и мне не хотелось бы, чтобы
+случае мне потребовалось партиционировать таблицу по дате. Я знаю, что большая
+часть запросов будет идти к свежим данным и мне не хотелось бы, чтобы
 планировщику запросов постоянно приходилось проверять и старые данные тоже.
 
 ```SQL
 CREATE TABLE source.energy_1m
 (
-    client_id integer,
+    client_id   integer,
     endpoint_id integer,
-    event_date date,
-    event_time timestamp with time zone,
-    kwh real
-) PARTITION BY RANGE (event_date) 
-WITH (
-    OIDS = FALSE
-)
-TABLESPACE pg_default;
+    event_date  date,
+    event_time  timestamp with time zone,
+    kwh         real
+) PARTITION BY RANGE (event_date)
+    WITH (
+        OIDS = FALSE
+    )
+    TABLESPACE pg_default;
 
 ALTER TABLE source.energy_1m
     OWNER to postgres;
@@ -57,18 +59,19 @@ COMMENT ON TABLE source.energy_1m
     IS 'Поминутное потребление электроэнергии';
 ```
 
-Создание партиционированной таблицы не отличается от обычной, 
-за исключением двух моментов:
+Создание партиционированной таблицы не отличается от обычной, за исключением
+двух моментов:
 
 1. Мы ограничены в constraint'ах и первичных ключах. Ключи вообще не
-поддерживаются, ограничения допустимы, но только в рамках одной партиции, а не
-всей таблицы целиком.
+   поддерживаются, ограничения допустимы, но только в рамках одной партиции, а
+   не всей таблицы целиком.
 1. Надо указать, как таблица должна быть партиционирована. Базовые варианты это
-LIST, RANGE и HASH. В моём случае идёт работа с датами, так что я решил выбрать RANGE.
+   LIST, RANGE и HASH. В моём случае идёт работа с датами, так что я решил
+   выбрать RANGE.
 
-Дочерние таблицы, выступающие в качестве партиций требуется создавать специально.
-Для этого можно написать соответствующие хранимые процедуры в базе, но в
-моём случае я решил обойтись ручной генерацией. Главное не забыть добавить
+Дочерние таблицы, выступающие в качестве партиций требуется создавать
+специально. Для этого можно написать соответствующие хранимые процедуры в базе,
+но в моём случае я решил обойтись ручной генерацией. Главное не забыть добавить
 партиций, когда подойдёт время.
 
 ```SQL
@@ -105,34 +108,39 @@ CREATE TABLE energy_1m_2021_12 PARTITION OF energy_1m FOR VALUES FROM ('2021-12-
 ```SQL
 CREATE UNIQUE INDEX energy_1m_idx
     ON source.energy_1m USING btree
-    (table_name ASC NULLS LAST, 
-    client_id ASC NULLS LAST,
-    endpoint_id ASC NULLS LAST,
-    event_date ASC NULLS LAST)
+        (table_name ASC NULLS LAST,
+         client_id ASC NULLS LAST,
+         endpoint_id ASC NULLS LAST,
+         event_date ASC NULLS LAST)
     TABLESPACE pg_default;
 ```
 
 Также можно добавить ограничения на таблицу. Главное помнить, что не всё
-допустимо. Партиционированные таблицы не умеют гарантировать уникальность данных
-между партициями, только в рамках одной партициии.
+допустимо. Партиционированные таблицы не умеют гарантировать уникальность
+данных между партициями, только в рамках одной партициии.
 
 ```SQL
 ALTER TABLE source.energy_1m
-    ADD CONSTRAINT energy_1m_unique 
-    UNIQUE (client_id, endpoint_id, event_date, event_time);
+    ADD CONSTRAINT energy_1m_unique
+        UNIQUE (client_id, endpoint_id, event_date, event_time);
 ```
 
 После этого можно проверить результат:
 
 ```SQL
-INSERT INTO source.energy_1m VALUES (1, 1, '2020-01-01'::date, '2020-01-01 14:35:00'::timestamptz, 7.32);
-INSERT INTO source.energy_1m VALUES (1, 1, '2021-02-01'::date, '2021-02-01 14:35:00'::timestamptz, 6.12);
-```
-```SQL
-DELETE FROM source.energy_1m WHERE client_id = 1;
+INSERT INTO source.energy_1m
+VALUES (1, 1, '2020-01-01'::date, '2020-01-01 14:35:00'::timestamptz, 7.32);
+INSERT INTO source.energy_1m
+VALUES (1, 1, '2021-02-01'::date, '2021-02-01 14:35:00'::timestamptz, 6.12);
 ```
 
-Партиционированная таблица сама по себе не содержит никаких данных и просто 
+```SQL
+DELETE
+FROM source.energy_1m
+WHERE client_id = 1;
+```
+
+Партиционированная таблица сама по себе не содержит никаких данных и просто
 перенаправляет запросы к своим партициям. Сами же партиции также могут быть
 партиционированы и тоже перенаправлять запросы. Преобразовать обычную таблицу
 напрямую в партиционированную нельзя. Равно как и наоборот.
@@ -263,13 +271,13 @@ EXECUTE PROCEDURE auto_create_partition_on_insert();
 
 ## Триггеры
 
-Триггеры это автоматически вызываемые при определённых событиях сущности.
-Они обладают хранимой процедурой, вызов которой производит какие-либо 
-проверки или изменения.
+Триггеры это автоматически вызываемые при определённых событиях сущности. Они
+обладают хранимой процедурой, вызов которой производит какие-либо проверки или
+изменения.
 
 В данном случае мне нужен триггер, который будет следить за тем, за какие даты
-у меня есть данные. Эту информацию можно было бы получить и из самих данных,
-но PostgreSQL это не ClickHouse, при росте размеров таблиц скорость получения 
+у меня есть данные. Эту информацию можно было бы получить и из самих данных, но
+PostgreSQL это не ClickHouse, при росте размеров таблиц скорость получения
 подобной информации очень быстро становится неприемлемой.
 
 Для начала создадим таблицу для учёта:
@@ -277,15 +285,15 @@ EXECUTE PROCEDURE auto_create_partition_on_insert();
 ```SQL
 CREATE TABLE source.existing_dates
 (
-    table_name character varying(32) NOT NULL,
-    client_id INTEGER NOT NULL,
-    endpoint_id INTEGER NOT NULL,
-    event_date date NOT NULL,
+    table_name  character varying(32) NOT NULL,
+    client_id   INTEGER               NOT NULL,
+    endpoint_id INTEGER               NOT NULL,
+    event_date  date                  NOT NULL,
     UNIQUE (table_name, client_id, endpoint_id, event_date)
 )
-WITH (
-    OIDS = FALSE
-);
+    WITH (
+        OIDS = FALSE
+    );
 
 ALTER TABLE source.existing_dates
     OWNER to postgres;
@@ -299,60 +307,64 @@ COMMENT ON TABLE source.existing_dates
 
 CREATE UNIQUE INDEX existing_dates_idx
     ON source.existing_dates USING btree
-    (table_name ASC NULLS LAST, 
-    client_id ASC NULLS LAST,
-    endpoint_id ASC NULLS LAST,
-    event_date ASC NULLS LAST)
+        (table_name ASC NULLS LAST,
+         client_id ASC NULLS LAST,
+         endpoint_id ASC NULLS LAST,
+         event_date ASC NULLS LAST)
     TABLESPACE pg_default;
 ```
 
-Потом нам понадобятся два триггера. Один на добавление данных и один на удаление.
-И на всякий случай можно добавить один на очистку. Это связано с тем, что
-TRUNCATE это отдельное событие и его вызов не вызовет срабатывания DELETE триггера.
+Потом нам понадобятся два триггера. Один на добавление данных и один на
+удаление. И на всякий случай можно добавить один на очистку. Это связано с тем,
+что TRUNCATE это отдельное событие и его вызов не вызовет срабатывания DELETE
+триггера.
 
 ```SQL
-CREATE OR REPLACE FUNCTION register_insert() RETURNS TRIGGER AS $$
+CREATE OR REPLACE FUNCTION register_insert() RETURNS TRIGGER AS
+$$
 BEGIN
-  INSERT INTO source.existing_dates 
-    SELECT 
-        TG_TABLE_NAME::text, 
-        client_id, 
-        endpoint_id,
-        event_date 
-    FROM new_table GROUP BY client_id, endpoint_id, event_date
+    INSERT INTO source.existing_dates
+    SELECT TG_TABLE_NAME::text,
+           client_id,
+           endpoint_id,
+           event_date
+    FROM new_table
+    GROUP BY client_id, endpoint_id, event_date
     ON CONFLICT (table_name, client_id, endpoint_id, event_date) DO NOTHING;
     RETURN NULL;
 END
 $$ LANGUAGE 'plpgsql';
 
-CREATE OR REPLACE FUNCTION register_delete() RETURNS TRIGGER AS $$
+CREATE OR REPLACE FUNCTION register_delete() RETURNS TRIGGER AS
+$$
 BEGIN
     SET search_path TO source,public;
     WITH gr as (
-        SELECT 
-            client_id, 
-            endpoint_id, 
-            event_date 
-        FROM old_table 
-        GROUP BY 
-            client_id, 
-            endpoint_id, 
-            event_date
+        SELECT client_id,
+               endpoint_id,
+               event_date
+        FROM old_table
+        GROUP BY client_id,
+                 endpoint_id,
+                 event_date
     )
-	DELETE FROM source.existing_dates ed
-	USING gr
+    DELETE
+    FROM source.existing_dates ed
+        USING gr
     WHERE table_name = TG_TABLE_NAME::text
-    AND ed.client_id = gr.client_id
-    AND ed.endpoint_id = gr.endpoint_id
-	AND ed.event_date = gr.event_date;
+      AND ed.client_id = gr.client_id
+      AND ed.endpoint_id = gr.endpoint_id
+      AND ed.event_date = gr.event_date;
     RETURN NULL;
 END
 
 $$ LANGUAGE 'plpgsql';
 
-CREATE OR REPLACE FUNCTION register_truncate() RETURNS TRIGGER AS $$
+CREATE OR REPLACE FUNCTION register_truncate() RETURNS TRIGGER AS
+$$
 BEGIN
-	DELETE FROM source.existing_dates 
+    DELETE
+    FROM source.existing_dates
     WHERE table_name = TG_TABLE_NAME::text;
     RETURN NULL;
 END
@@ -363,23 +375,29 @@ $$ LANGUAGE 'plpgsql';
 
 ```SQL
 CREATE TRIGGER energy_1m_insert
-    AFTER INSERT ON source.energy_1m
+    AFTER INSERT
+    ON source.energy_1m
     REFERENCING NEW TABLE AS new_table
-    FOR EACH STATEMENT EXECUTE FUNCTION register_insert();
+    FOR EACH STATEMENT
+EXECUTE FUNCTION register_insert();
 
 CREATE TRIGGER energy_1m_delete
-    AFTER DELETE ON source.energy_1m
+    AFTER DELETE
+    ON source.energy_1m
     REFERENCING OLD TABLE AS old_table
-    FOR EACH STATEMENT EXECUTE FUNCTION register_delete();
+    FOR EACH STATEMENT
+EXECUTE FUNCTION register_delete();
 
 CREATE TRIGGER energy_1m_truncate
-    AFTER TRUNCATE ON source.energy_1m
-    FOR EACH STATEMENT EXECUTE FUNCTION register_truncate();
+    AFTER TRUNCATE
+    ON source.energy_1m
+    FOR EACH STATEMENT
+EXECUTE FUNCTION register_truncate();
 ```
 
-После этого в таблице existing_dates должна автоматически обновляться информация
-о том, за какие даты у нас есть данные. Таблица при этом не должна редактироваться
-вручную.
+После этого в таблице existing_dates должна автоматически обновляться
+информация о том, за какие даты у нас есть данные. Таблица при этом не должна
+редактироваться вручную.
 
 ### Установка на Ubuntu
 
@@ -400,15 +418,18 @@ sudo nano /etc/postgresql/x.x/main/pg_hba.conf
 ```
 
 Ввести:
+
 ```
 host	all	all	0.0.0.0/0		md5
 host	all	all	::0/0       md5
 ```
+
 ```
 sudo nano /etc/postgresql/x.x/main/postgresqlconf.conf
 ```
 
 Раскомментировать:
+
 ```
 listen_addresses = '*'
 ```
@@ -437,70 +458,115 @@ LIMIT 20
 ### Получить размер всех таблиц на данном сервере
 
 ```sql
-WITH RECURSIVE pg_inherit(inhrelid, inhparent) AS
-    (select inhrelid, inhparent
-    FROM pg_inherits
-    UNION
-    SELECT child.inhrelid, parent.inhparent
-    FROM pg_inherit child, pg_inherits parent
-    WHERE child.inhparent = parent.inhrelid),
-pg_inherit_short AS (SELECT * FROM pg_inherit WHERE inhparent NOT IN (SELECT inhrelid FROM pg_inherit))
+WITH RECURSIVE
+    pg_inherit(inhrelid, inhparent) AS
+        (select inhrelid, inhparent
+         FROM pg_inherits
+         UNION
+         SELECT child.inhrelid, parent.inhparent
+         FROM pg_inherit child,
+              pg_inherits parent
+         WHERE child.inhparent = parent.inhrelid),
+    pg_inherit_short AS (SELECT *
+                         FROM pg_inherit
+                         WHERE inhparent NOT IN
+                               (SELECT inhrelid FROM pg_inherit))
 SELECT table_schema
-    , TABLE_NAME
-    , row_estimate
-    , pg_size_pretty(total_bytes) AS total
-    , pg_size_pretty(index_bytes) AS INDEX
-    , pg_size_pretty(toast_bytes) AS toast
-    , pg_size_pretty(table_bytes) AS TABLE
-  FROM (
-    SELECT *, total_bytes-index_bytes-COALESCE(toast_bytes,0) AS table_bytes
-    FROM (
-         SELECT c.oid
-              , nspname AS table_schema
-              , relname AS TABLE_NAME
-              , SUM(c.reltuples) OVER (partition BY parent) AS row_estimate
-              , SUM(pg_total_relation_size(c.oid)) OVER (partition BY parent) AS total_bytes
-              , SUM(pg_indexes_size(c.oid)) OVER (partition BY parent) AS index_bytes
-              , SUM(pg_total_relation_size(reltoastrelid)) OVER (partition BY parent) AS toast_bytes
-              , parent
-          FROM (
-                SELECT pg_class.oid
-                    , reltuples
-                    , relname
-                    , relnamespace
-                    , pg_class.reltoastrelid
-                    , COALESCE(inhparent, pg_class.oid) parent
-                FROM pg_class
-                    LEFT JOIN pg_inherit_short ON inhrelid = oid
-                WHERE relkind IN ('r', 'p')
-             ) c
-             LEFT JOIN pg_namespace n ON n.oid = c.relnamespace
-  ) a
-  WHERE oid = parent
-) a
+     , TABLE_NAME
+     , row_estimate
+     , pg_size_pretty(total_bytes) AS total
+     , pg_size_pretty(index_bytes) AS INDEX
+     , pg_size_pretty(toast_bytes) AS toast
+     , pg_size_pretty(table_bytes) AS TABLE
+FROM (
+         SELECT *,
+                total_bytes - index_bytes -
+                COALESCE(toast_bytes, 0) AS table_bytes
+         FROM (
+                  SELECT c.oid
+                       , nspname                                     AS table_schema
+                       , relname                                     AS TABLE_NAME
+                       , SUM(c.reltuples) OVER (partition BY parent) AS row_estimate
+                       , SUM(pg_total_relation_size(c.oid))
+                         OVER (partition BY parent)                  AS total_bytes
+                       , SUM(pg_indexes_size(c.oid))
+                         OVER (partition BY parent)                  AS index_bytes
+                       , SUM(pg_total_relation_size(reltoastrelid))
+                         OVER (partition BY parent)                  AS toast_bytes
+                       , parent
+                  FROM (
+                           SELECT pg_class.oid
+                                , reltuples
+                                , relname
+                                , relnamespace
+                                , pg_class.reltoastrelid
+                                , COALESCE(inhparent, pg_class.oid) parent
+                           FROM pg_class
+                                    LEFT JOIN pg_inherit_short ON inhrelid = oid
+                           WHERE relkind IN ('r', 'p')
+                       ) c
+                           LEFT JOIN pg_namespace n ON n.oid = c.relnamespace
+              ) a
+         WHERE oid = parent
+     ) a
 ORDER BY total_bytes DESC;
 ```
 
 ### Скользящая средняя
 
 ```sql
-SELECT
-    event_time as t,
-    avg(value) OVER w
+SELECT event_time as t,
+       avg(value) OVER w
 FROM table
-WHERE event_date = now()::date AND client_id = 67 AND endpoint_id = 488
-WINDOW w AS (ORDER BY event_time DESC ROWS BETWEEN 1 FOLLOWING AND 3 FOLLOWING)
+WHERE event_date = now()::date
+  AND client_id = 67
+  AND endpoint_id = 488
+    WINDOW w AS (ORDER BY event_time DESC ROWS BETWEEN 1 FOLLOWING AND 3 FOLLOWING)
 ORDER BY t
 ```
 
 ### Узнать права доступа к таблицам
 
 ```sql
-SELECT grantee AS user, CONCAT(table_schema, '.', table_name) AS table, 
-    CASE 
-        WHEN COUNT(privilege_type) = 7 THEN 'ALL'
-        ELSE ARRAY_TO_STRING(ARRAY_AGG(privilege_type), ', ')
-    END AS grants
+SELECT grantee                               AS user,
+       CONCAT(table_schema, '.', table_name) AS table,
+       CASE
+           WHEN COUNT(privilege_type) = 7 THEN 'ALL'
+           ELSE ARRAY_TO_STRING(ARRAY_AGG(privilege_type), ', ')
+           END                               AS grants
 FROM information_schema.role_table_grants
 GROUP BY table_name, table_schema, grantee;
+```
+
+## Обновить constraint
+
+Вообще в PostgreSQL не предусмотрено изменение существующих ограничений. Так
+что, для добавления действия к внешним ключам и другим операциям подобного
+типа, constraint придётся пересоздать.
+
+```sql
+ALTER TABLE users
+    DROP CONSTRAINT users_root_item_fkey,
+    ADD CONSTRAINT users_root_item_fkey
+        FOREIGN KEY (root_item) REFERENCES items (uuid) ON DELETE SET NULL
+```
+
+## Обменять значения в колонке
+
+Работает для колонок, значения в которых не уникальны.
+
+```sql
+with backup1 as (select number from table_name where key = 2),
+     backup2 as (update table_name set number = (select number from table_name where key = 1) where key = 2)
+update table_name
+set number = (select * from backup1)
+where key = 1;
+```
+
+Если есть ограничение на уникальность, в общем случае операция невозможна. 
+Но можно сделать ограничение отложенным, чтобы оно проверялось только в конце 
+транзакции.
+
+```sql
+ALTER TABLE records ADD CONSTRAINT uniq UNIQUE (id) DEFERRABLE INITIALLY IMMEDIATE;
 ```
