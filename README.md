@@ -1,6 +1,6 @@
 Данный репозиторий был собран с помощью проекта Minimus: https://github.com/IgorZyktin/minimus
  
-# Всего записей: 68 шт.
+# Всего записей: 70 шт.
 
  - Computer science
 
@@ -140,6 +140,8 @@
 
      - [Kubernetes](./content/Компьютеры%20и%20софт/Программы/Kubernetes.md)
 
+     - [MySQL](./content/Компьютеры%20и%20софт/Программы/MYSQL.md)
+
      - [NGINX](./content/Компьютеры%20и%20софт/Программы/Nginx.md)
 
      - [PostgreSQL](./content/Компьютеры%20и%20софт/Программы/PostgreSQL.md)
@@ -147,6 +149,8 @@
      - [PowerShell](./content/Компьютеры%20и%20софт/Программы/PowerShell.md)
 
      - [SQLite](./content/Компьютеры%20и%20софт/Программы/SQLite.md)
+
+     - [pgbench](./content/Компьютеры%20и%20софт/Программы/pgbench.md)
 
    - Утилиты
 
