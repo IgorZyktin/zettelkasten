@@ -1,0 +1,818 @@
+{
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Computer science\\Акронимы в программировании.md": {
+        "md5": "6b0bd6b0be3a2069653932d3f580f94d",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 9762
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Computer science\\Быстрая сортировка.md": {
+        "md5": "71b0450f47a4b9f73c05cc2beda02075",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 2221
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Computer science\\Побитовые операции.md": {
+        "md5": "5eabe3fffd642ef740b7ca62d15976b4",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 5022
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Computer science\\Сортировка вставками.md": {
+        "md5": "a207119b9fab3bf64d73b2af61c9da26",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 3035
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Computer science\\Сортировка подсчётом.md": {
+        "md5": "6240dc4db13525c23a9dff4d6d54a837",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 3334
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Computer science\\Сортировка пузырьком.md": {
+        "md5": "60389ca1cd2f023ac1b0ba22edc80e48",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 3195
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Computer science\\Сортировка слиянием.md": {
+        "md5": "23f7a203627042e80a92d34ca4ca965e",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 3176
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Computer science\\Текучий интерфейс.md": {
+        "md5": "0407b9f8b70c0c7bfc8f68b9438d7bf5",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 3257
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Computer science\\Числа с плавающей запятой.md": {
+        "md5": "2154ac19f92a43910cb0e064bd87963b",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 12324
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Жизнь\\Когда-нибудь я это прочту.md": {
+        "md5": "258c84c869bdcec0eb611e127035d0f6",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 1377
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Мемуары\\Бен Рич - Skunk Works.md": {
+        "md5": "d59212399cab30a38c4a99a581a7a905",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 1481
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Мемуары\\Ричард Фейнман - Вы конечно шутите мистер Фейнман.md": {
+        "md5": "b9d5a66b0f6a946180b804a2cd293b6d",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 2789
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Мемуары\\Роберт Робинсон - Чёрный о красных.md": {
+        "md5": "3416b63e5851c6b8ec5369b678abb4f9",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 1419
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Мемуары\\Тара Вестовер - Ученица.md": {
+        "md5": "887f08e0fc8d146bc04863ae62c6b770",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 1290
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Программирование\\Билл Любанович - Простой Python.md": {
+        "md5": "5ec9caec9a12bda1d8ded78ad2ff6339",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 1072
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Программирование\\Джульен Данжу - Serious Python.md": {
+        "md5": "46f7e011c6a6a18c138bb823daa31fc7",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 1596
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Программирование\\Лучано Рамальо - Fluent Python.md": {
+        "md5": "2762090acabce3d8bd53a5b0de93a599",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 1817
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Программирование\\Мигель Гринберг - Разработка веб приложений на Flask.md": {
+        "md5": "c61475aad740f18182b1116d26f345d6",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 1519
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Программирование\\Роберт Мартин - Идеальный программист.md": {
+        "md5": "baeb2c96c2112659963a5668147a550f",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 1646
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Программирование\\Роберт Мартин - Чистая архитектура.md": {
+        "md5": "9919cd7cd58b2e6f0a3a1703193b598e",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 5374
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Программирование\\Эндрю Танненбаум - Компьютерные сети.md": {
+        "md5": "b0335754776c832a243ce1258a2f39a8",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 768
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Программирование\\Эндрю Танненбаум - Операционные системы.md": {
+        "md5": "c80b446a7b060e0ecc1e869d26ddecd5",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 788
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Прочее\\Владимир Пропп - Исторические корни волшебной сказки.md": {
+        "md5": "cc77c15df3c4430bac712f0dcd77e6e3",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 1859
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Книги\\Прочее\\Даниил Гранин - Эта странная жизнь.md": {
+        "md5": "30156ae8f2d6425bdb1411807a7871a0",
+        "created": 1672050851,
+        "modified": 1688978902,
+        "size": 2475
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Linux\\Samba.md": {
+        "md5": "1f376b74cb7ddc22200d59ccc1c0fede",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 4024
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Linux\\Монтирование носителя.md": {
+        "md5": "5c29a97f118aa9ea6dd9f8f86b3c2051",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 4065
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Linux\\Монтирование сетевого носителя.md": {
+        "md5": "83c906b0cf0914fc1290be8830a6fe82",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 2220
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Linux\\Переадресация HTTP.md": {
+        "md5": "6553f430337903bf61b23497b85a76a0",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 1889
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Linux\\Подготовка к работе VPS с linux.md": {
+        "md5": "6f00dbf5daeb888a5ecc40d8cd5efa91",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 2942
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Linux\\Полезные рецепты Linux.md": {
+        "md5": "11e6c930a1ef35850fc595b448924cbd",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 4515
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Linux\\Права доступа к файлам.md": {
+        "md5": "ae9042f70e201cfbe5aee718a3dc77d7",
+        "created": 1672050851,
+        "modified": 1688979083,
+        "size": 3001
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Linux\\Работа с пользователями.md": {
+        "md5": "35817ec633e4a7e961c573e9ebe4748d",
+        "created": 1672050851,
+        "modified": 1688978984,
+        "size": 1212
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Linux\\Создание собственного сервиса.md": {
+        "md5": "5022eef662cfadcdb11c05c6480d04a7",
+        "created": 1672050851,
+        "modified": 1688978984,
+        "size": 2093
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Linux\\Узнать IP адреса в локальной сети.md": {
+        "md5": "ccfcfdc2b5576d760da128e88ca51998",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 3979
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Linux\\Установка wireguard.md": {
+        "md5": "04a60e649844965f26665b273cfa4815",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 4593
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Raspberry Pi\\Полезные рецепты Raspberry Pi.md": {
+        "md5": "5a1cc037de995e0319902c80099884b8",
+        "created": 1672050851,
+        "modified": 1688979083,
+        "size": 1318
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Raspberry Pi\\Установка Raspbian.md": {
+        "md5": "b3aef47bb28cfa2a2d945c47a09da4d0",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 3356
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Windows\\Полезные рецепты Windows.md": {
+        "md5": "dc832eeee59ca98ec32096549e2e595d",
+        "created": 1672050851,
+        "modified": 1688979083,
+        "size": 1099
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Windows\\Удалённый рабочий стол для нескольких пользователей.md": {
+        "md5": "c5ab42a53a8674dde3a898921884ad33",
+        "created": 1672050851,
+        "modified": 1688979083,
+        "size": 4880
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Личный опыт\\Omoide\\Media Storage System.md": {
+        "md5": "8a6fb54fcad50bd2375f5bd24b1278cf",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 12667
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Личный опыт\\Собеседования.md": {
+        "md5": "292390d647faf5b9ef41c13d73ba2f5e",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 921
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программирование\\Основы языка Python.md": {
+        "md5": "db2f5e339761649bf1ef8f918036006a",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 24354
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программирование\\Полезные рецепты Python.md": {
+        "md5": "c0567fa1853771e881e68915bc536e55",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 8204
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программные компоненты\\pyenv.md": {
+        "md5": "2efe6d41f5dff5e3a69a31552163c95e",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 1889
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программные компоненты\\tox.md": {
+        "md5": "7a1d0c7e31a4224862474406ca71746b",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 1106
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программы\\Clickhouse.md": {
+        "md5": "b96b54dd3a4fb29bee8daad61b881f45",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 5701
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программы\\Docker.md": {
+        "md5": "56969688ad422fc2a0c95208fa8e6469",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 4294
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программы\\GIT.md": {
+        "md5": "9ecfe90160e71ad0f162a20aa05ae920",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 18102
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программы\\Grafana.md": {
+        "md5": "9e8def7a7c5dc461b2d45a312678f1a3",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 1231
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программы\\Kubernetes.md": {
+        "md5": "f3a31f3989175b8e9be6d3dbefe21e04",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 4675
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программы\\Nginx.md": {
+        "md5": "87ae59a0db1d7a071b9b97616cede66d",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 2098
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программы\\PostgreSQL.md": {
+        "md5": "239573b5846338232cf96de22c182e0c",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 24040
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программы\\PowerShell.md": {
+        "md5": "acad1a30de1c28d81ac3546a8e3b64b4",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 2064
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программы\\SQLite.md": {
+        "md5": "df20a2868864d7a92e18c0ed0014bdd7",
+        "created": 1672050851,
+        "modified": 1688979013,
+        "size": 1638
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программы\\Terraform.md": {
+        "md5": "ffcc4e1f4e3823a170205a4802b30d10",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 1796
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Программы\\pgbench.md": {
+        "md5": "847bf5b68184678516b08ea5879478b7",
+        "created": 1672051442,
+        "modified": 1688979012,
+        "size": 3064
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Утилиты\\Curl.md": {
+        "md5": "05eb26f01b38485d706e3a4828c888f0",
+        "created": 1672050851,
+        "modified": 1688978903,
+        "size": 960
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Утилиты\\Grep.md": {
+        "md5": "0df4b6ac40ce8a399e2814c64bc39bb3",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 1974
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Утилиты\\Iperf.md": {
+        "md5": "b1ec814d77a4985efaf305a5a89b8a9d",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 2993
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Утилиты\\Jq.md": {
+        "md5": "939d0fce5a943b3627d6dd268616a9a0",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 3341
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Утилиты\\Ping.md": {
+        "md5": "eec12096f9fd402ad9725a2674d8414c",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 2966
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Утилиты\\SCP.md": {
+        "md5": "faf79ced09c0fe078ef3281516418b66",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 1498
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Утилиты\\SSH.md": {
+        "md5": "0b61bbf6fd594dfdc4bed97b5d68e76b",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 3225
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Утилиты\\Screen.md": {
+        "md5": "dbea7e20ee1d128fb8411eae28895fb0",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 2862
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Утилиты\\Traceroute.md": {
+        "md5": "1b9fb07063791ec1e91817ad232eef79",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 1618
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Компьютеры и софт\\Утилиты\\Vi.md": {
+        "md5": "f497d176afe0f2d08b055173ebb8bb71",
+        "created": 1672050851,
+        "modified": 1688979012,
+        "size": 1525
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Кулинария\\Рецепт блинов.md": {
+        "md5": "0cd5292ae1514e420b266fa4b7628648",
+        "created": 1672050851,
+        "modified": 1688978903,
+        "size": 2178
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\content\\Математика\\Общие делители.md": {
+        "md5": "50f326e9fc0ec57ebe0b4288b1f052cb",
+        "created": 1672050851,
+        "modified": 1688978903,
+        "size": 12069
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Computer science\\Акронимы в программировании.md": {
+        "md5": "d16165bbdc37c50d2ab8df4d4dc78c5f",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 9753
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Computer science\\Быстрая сортировка.md": {
+        "md5": "967cd1e8c1e800cfeeefdc6640b4b795",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 2203
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Computer science\\Побитовые операции.md": {
+        "md5": "32fbc1142a3468bd296e7f29880314ed",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 5004
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Computer science\\Сортировка вставками.md": {
+        "md5": "04d95006ed16732441349a7ca4e43dee",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 3017
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Computer science\\Сортировка подсчётом.md": {
+        "md5": "c82728ebca9b5389ea45222f13a0fccf",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 3316
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Computer science\\Сортировка пузырьком.md": {
+        "md5": "3e0a23ad56e649b10715e995831c4041",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 3177
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Computer science\\Сортировка слиянием.md": {
+        "md5": "10a9ef1b26024334ab80e1c18443eb19",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 3158
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Computer science\\Текучий интерфейс.md": {
+        "md5": "a2dfd2623fe3d71c704f92be7a74662f",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 3245
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Computer science\\Числа с плавающей запятой.md": {
+        "md5": "85a7692416c94c96bdbbff7aec119b79",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 12300
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Жизнь\\Когда-нибудь я это прочту.md": {
+        "md5": "10899346c42ea620bf142de1d2e1b07f",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 1371
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Мемуары\\Бен Рич - Skunk Works.md": {
+        "md5": "bdac0390fdf187ed02c80cc76dd22920",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 1457
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Мемуары\\Ричард Фейнман - Вы конечно шутите мистер Фейнман.md": {
+        "md5": "9d63cca248cce2e7967970f930760c7b",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 2771
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Мемуары\\Роберт Робинсон - Чёрный о красных.md": {
+        "md5": "599778b9b113e9a2983a55d855d69bac",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 1398
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Мемуары\\Тара Вестовер - Ученица.md": {
+        "md5": "a82555254cfec18fe55cbcb67ae58344",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 1272
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Программирование\\Билл Любанович - Простой Python.md": {
+        "md5": "485a3d84bef283e6ce63788128ab5724",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 1054
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Программирование\\Джульен Данжу - Serious Python.md": {
+        "md5": "c96b2f56df028e17ef3151c33dffe227",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 1578
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Программирование\\Лучано Рамальо - Fluent Python.md": {
+        "md5": "1b066b2b68ccdd393406e3855b012ea7",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 1799
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Программирование\\Мигель Гринберг - Разработка веб приложений на Flask.md": {
+        "md5": "1fa2b16a0452ddecf5fba8520a6846ae",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 1501
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Программирование\\Роберт Мартин - Идеальный программист.md": {
+        "md5": "3e8ee39a0f9c90757142ca48442b8284",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 1628
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Программирование\\Роберт Мартин - Чистая архитектура.md": {
+        "md5": "aa4b6e0d9e3d46eeed58f2185a52c56d",
+        "created": 1672050851,
+        "modified": 1688979712,
+        "size": 5356
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Программирование\\Эндрю Танненбаум - Компьютерные сети.md": {
+        "md5": "674cb52e01be0eb8fd4a1c145aa5c9c4",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 747
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Программирование\\Эндрю Танненбаум - Операционные системы.md": {
+        "md5": "b75356c9af1d87d658c9088800f96eb5",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 767
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Прочее\\Владимир Пропп - Исторические корни волшебной сказки.md": {
+        "md5": "0c1a6dfc55f26f3a676be3dad652c9fd",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1838
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Книги\\Прочее\\Даниил Гранин - Эта странная жизнь.md": {
+        "md5": "5c41337079d4b3d52d5e3b5306af38ee",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 2454
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Linux\\Samba.md": {
+        "md5": "5266ba8fa9dcaca19ca82c81c5e4c86b",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 4003
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Linux\\Монтирование носителя.md": {
+        "md5": "c02b046cec7c741bf4af3e12bb04a53d",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 4047
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Linux\\Монтирование сетевого носителя.md": {
+        "md5": "5190d951e84c34193034793116f826bc",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 2147
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Linux\\Переадресация HTTP.md": {
+        "md5": "afbea96d4731023926f9aee3fc4bc8ae",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1871
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Linux\\Подготовка к работе VPS с linux.md": {
+        "md5": "a4feec0e3511cb5354b28d281fe82c98",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 2924
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Linux\\Полезные рецепты Linux.md": {
+        "md5": "a3cb0db5825ad9d1fc22d30bb6bc3e4a",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 4500
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Linux\\Права доступа к файлам.md": {
+        "md5": "c16101767ab2d2d7b8533ef4d5fed6c4",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 2986
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Linux\\Работа с пользователями.md": {
+        "md5": "536eadcc3f1099ad859b820f87678ccd",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1197
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Linux\\Создание собственного сервиса.md": {
+        "md5": "22bd3ba4b9216f7a6434153ff2db69c3",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 2078
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Linux\\Узнать IP адреса в локальной сети.md": {
+        "md5": "1c23adf3a130caaaa76bc8cf69fa838f",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 3964
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Linux\\Установка wireguard.md": {
+        "md5": "a64da30a008f065a21044ea097d1eb40",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 4575
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Raspberry Pi\\Полезные рецепты Raspberry Pi.md": {
+        "md5": "4173ab1210dac52e41678cc8457406fe",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1303
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Raspberry Pi\\Установка Raspbian.md": {
+        "md5": "23ea252f71ffcf66fc1afb40298f385b",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 3338
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Windows\\Полезные рецепты Windows.md": {
+        "md5": "6c38d1aa1fed3947bb0e7d9a345a6b8d",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1084
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Windows\\Удалённый рабочий стол для нескольких пользователей.md": {
+        "md5": "d1ae876455a744e0423e078998b6bf84",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 4859
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Личный опыт\\Omoide\\Media Storage System.md": {
+        "md5": "09b400c7a930993bb0b17514ee3ac4ca",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 12646
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Личный опыт\\Собеседования.md": {
+        "md5": "6644a72d945b82b4ce4924443b740907",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 912
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программирование\\Основы языка Python.md": {
+        "md5": "d3e6dbdc14e1e41214c3ee2c1dc8ef44",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 24342
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программирование\\Полезные рецепты Python.md": {
+        "md5": "ab2fc575f5919ad79e6b90e58a2e859b",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 8189
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программные компоненты\\pyenv.md": {
+        "md5": "e83e3c529e3da3076727b19df29ce948",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1868
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программные компоненты\\tox.md": {
+        "md5": "607c33c5a2d04adc85725b7a1583ad8d",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1082
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программы\\Clickhouse.md": {
+        "md5": "60d0fb704e62ce1180bb646f5a021504",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 5683
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программы\\Docker.md": {
+        "md5": "ab6145e9a26f3d69577ef40f853b6afd",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 4267
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программы\\GIT.md": {
+        "md5": "22638798784783cef18a8e3f20673cb0",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 18081
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программы\\Grafana.md": {
+        "md5": "9e2a81ff60ab9e5756b127dfa47990cc",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1213
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программы\\Kubernetes.md": {
+        "md5": "c7667191483655f519fbb5c50ce311b1",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 4651
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программы\\Nginx.md": {
+        "md5": "92b7c50f11626b6322ce1305cc2f6a23",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 2074
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программы\\PostgreSQL.md": {
+        "md5": "61e0a5e336a6991fdfa33e25f17625df",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 24016
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программы\\PowerShell.md": {
+        "md5": "74ed6ac3a748912920c18e41b1856b95",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 2046
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программы\\SQLite.md": {
+        "md5": "4056a7637c42af8d4726dfdecc871061",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1614
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программы\\Terraform.md": {
+        "md5": "d0c9ed8c33eaf9ac816e486ef96537da",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1775
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Программы\\pgbench.md": {
+        "md5": "37c92b6cd3561be8daee2a821a5f7d99",
+        "created": 1672051442,
+        "modified": 1688979713,
+        "size": 3037
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Утилиты\\Curl.md": {
+        "md5": "fe6c532ff5a775c6875dec5fb3808bc5",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 939
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Утилиты\\Grep.md": {
+        "md5": "830ca55b180640b9d84ff94012c02201",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1953
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Утилиты\\Iperf.md": {
+        "md5": "4de39307a34da0f9393a6ca8218e21b6",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 2969
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Утилиты\\Jq.md": {
+        "md5": "ba190cb8b117ff13c2f9e7e7f3a62786",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 3320
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Утилиты\\Ping.md": {
+        "md5": "108bb9b6ca7453fa06440ff7398242a7",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 2942
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Утилиты\\SCP.md": {
+        "md5": "7327dcf66e9c09a27d0fdd3cfa512e32",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1477
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Утилиты\\SSH.md": {
+        "md5": "577594763e911a11ccbfb88451d5bcf4",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 3201
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Утилиты\\Screen.md": {
+        "md5": "487216e53f9bf89790bee76aa26e01a5",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 2841
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Утилиты\\Traceroute.md": {
+        "md5": "5b0cf181931f2857565975d3b07bb0d4",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1591
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Компьютеры и софт\\Утилиты\\Vi.md": {
+        "md5": "e45fd9fa86060317b97cec2fec9f4404",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 1504
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Кулинария\\Рецепт блинов.md": {
+        "md5": "32f205c2ad22cc7df3d6d9fd0eead54c",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 2169
+    },
+    "C:\\Users\\i.zyktin.a\\PycharmProjects\\Zettelkasten\\Математика\\Общие делители.md": {
+        "md5": "2df09fbb2b79ee6ee1ffbe62cc9e12ee",
+        "created": 1672050851,
+        "modified": 1688979713,
+        "size": 12054
+    }
+}

@@ -1,0 +1,21 @@
+# git
+
+### Встречается в:
+
+1 из 1. [GIT](../Компьютеры%20и%20софт/Программы/GIT.md)
+
+
+### Близкие теги:
+
+1 из 6. [ssh](../__tags/ssh.md)
+
+2 из 6. [Программы](../__tags/programmy.md)
+
+3 из 6. [компьютеры](../__tags/kompytery.md)
+
+4 из 6. [полезные рецепты](../__tags/poleznye_retsepty.md)
+
+5 из 6. [программирование](../__tags/programmirovanie.md)
+
+6 из 6. [программное обеспечение](../__tags/programmnoe_obespechenie.md)
+
