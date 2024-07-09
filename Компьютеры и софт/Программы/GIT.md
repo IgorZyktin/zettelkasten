@@ -407,3 +407,32 @@ graph выводит собственно граф коммитов, oneline о�
 ```shell
 git pull --rebase
 ```
+
+### Сделать pull всех веток
+
+```shell
+git branch -r \
+  | grep -v '\->' \
+  | sed "s,\x1B\[[0-9;]*[a-zA-Z],,g" \
+  | while read remote; do \
+      git branch --track "${remote#origin/}" "$remote"; \
+    done
+git fetch --all
+git pull --all
+```
+
+Исходная статья: https://stackoverflow.com/questions/10312521/how-do-i-fetch-all-git-branches
+
+### Вывести список всех веток с датой последнего коммита
+
+Если поиграть с форматом, можно, например, добавить автора коммита.
+
+Настройки формата тут: https://git-scm.com/docs/pretty-formats
+
+```shell
+for branch in `git branch -r | grep -v HEAD`;do echo -e `git show --format="%ci %cr" $branch | head -n 1` \\t$branch; done | sort -r
+```
+
+Исходная статья: http://stackoverflow.com/a/2514279
+Исходная статья: https://gist.github.com/jasonrudolph/1810768
+
