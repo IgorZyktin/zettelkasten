@@ -433,6 +433,33 @@ git pull --all
 for branch in `git branch -r | grep -v HEAD`;do echo -e `git show --format="%ci %cr" $branch | head -n 1` \\t$branch; done | sort -r
 ```
 
-Исходная статья: http://stackoverflow.com/a/2514279
-Исходная статья: https://gist.github.com/jasonrudolph/1810768
+- Исходная статья: http://stackoverflow.com/a/2514279
+- Исходная статья: https://gist.github.com/jasonrudolph/1810768
 
+### Удалить локальные ветки
+
+Удалить все локальные ветки, прошедшие merge:
+
+```shell
+git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
+```
+
+Вывести все ветки, имеющиеся локально, но не существующие в удалённом репозитории:
+
+```shell
+git remote prune <remote> --dry-run
+```
+
+Потом можно:
+
+```shell
+git remote prune origin
+```
+
+Удалить все удалённые ветки, прошедшие merge:
+
+```shell
+git branch -r --merged | egrep -v "(^\*|master|dev)" | sed 's/origin\///' | xargs -n 1 git push origin --delete
+```
+
+- Исходная статья: https://nickymeuleman.netlify.app/blog/delete-git-branches
