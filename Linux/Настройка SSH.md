@@ -131,10 +131,9 @@ sudo ufw allow from to any port 22
 sudo apt update
 sudo apt install fail2ban
 sudo systemctl enable fail2ban
-sudo cp /etc/fail2ban/jail.conf /etc/fail2ban/ssh.conf
 ```
 
-Пример настройки:
+Создать файл `/etc/fail2ban/jail.local`:
 
 ```ini
 [sshd]
@@ -151,4 +150,10 @@ bantime = 7200
 
 ```shell
 sudo fail2ban-client status sshd
+```
+
+Перезагрузить:
+
+```shell
+sudo systemctl restart fail2ban
 ```
