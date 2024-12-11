@@ -9,6 +9,13 @@ sudo lshw -class disk
 sudo lsscsi
 ```
 
+### Выкусить первую колонку из текстовых данных
+
+```shell
+cut -d ' ' -f1 file
+awk '{print $1}' file
+```
+
 ### Less
 
 #### Выключить перенос строк
