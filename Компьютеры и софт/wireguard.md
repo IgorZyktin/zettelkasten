@@ -153,4 +153,5 @@ PreDown = iptables -t nat -D POSTROUTING -o ens3 -j MASQUERADE
 sudo systemctl enable wg-quick@wg0.service
 sudo systemctl start wg-quick@wg0.service
 sudo systemctl status wg-quick@wg0.service
+sudo systemctl reload wg-quick@wg0.service
 ```

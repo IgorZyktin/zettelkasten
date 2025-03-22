@@ -136,6 +136,14 @@ sudo systemctl enable nginx
 sudo systemctl status nginx
 ```
 
+#### Бан нежелательных запросов из сети
+
+```shell
+location /cgi-bin/ {return 444;}
+location /scripts/ {return 444;}
+location ~ ".*\.git.*" {return 444;}
+```
+
 ## Источники
 
 * https://www.digitalocean.com/community/tutorials/nginx-ubuntu-18-04-ru

@@ -9,6 +9,17 @@ sudo lshw -class disk
 sudo lsscsi
 ```
 
+Настроить `hostname` компьютера:
+
+```shell
+hostnamectl hostname newhostname
+```
+
+Источники:
+
+* https://interface31.ru/tech_it/2023/01/linux-nachinayushhim-nastraivaem-imya-hosta-pri-pomoshhi-hostnamectl.html
+* https://userman.ru/2019/12/15/kak-izmenit-hostname-v-linux.html
+
 ### Выкусить первую колонку из текстовых данных
 
 ```shell
